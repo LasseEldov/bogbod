@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <title>Bogbod</title>
+  <desc>Vejbod-skur med fem stående bøger i pastelfarver</desc>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fce8b8"/>
+
+  <!-- Saddeltag -->
+  <path d="M 110 200 L 250 110 L 390 200 Z"
+        fill="#b86a2e" stroke="#4a2d1a" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="105" y="198" width="290" height="14"
+        fill="#b86a2e" stroke="#4a2d1a" stroke-width="6" stroke-linejoin="round"/>
+  <line x1="250" y1="115" x2="250" y2="198"
+        stroke="#4a2d1a" stroke-width="2.5" opacity="0.4"/>
+  <circle cx="250" cy="106" r="6" fill="#4a2d1a"/>
+  <line x1="250" y1="100" x2="250" y2="112"
+        stroke="#4a2d1a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Hovedbygning -->
+  <rect x="135" y="212" width="230" height="155"
+        fill="#d8893a" stroke="#4a2d1a" stroke-width="6" stroke-linejoin="round"/>
+  <line x1="170" y1="217" x2="170" y2="362"
+        stroke="#4a2d1a" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="217" x2="200" y2="362"
+        stroke="#4a2d1a" stroke-width="2" opacity="0.5"/>
+  <line x1="300" y1="217" x2="300" y2="362"
+        stroke="#4a2d1a" stroke-width="2" opacity="0.5"/>
+  <line x1="330" y1="217" x2="330" y2="362"
+        stroke="#4a2d1a" stroke-width="2" opacity="0.5"/>
+
+  <!-- Frontluge -->
+  <rect x="160" y="232" width="180" height="95"
+        fill="#fef2d0" stroke="#4a2d1a" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="148" y="322" width="204" height="16"
+        fill="#4a2d1a" stroke="#4a2d1a" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Bog 1: sage-grøn -->
+  <rect x="178" y="252" width="24" height="70"
+        fill="#7fa893" stroke="#4a2d1a" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="178" y1="265" x2="202" y2="265" stroke="#4a2d1a" stroke-width="2.5"/>
+  <line x1="178" y1="310" x2="202" y2="310" stroke="#4a2d1a" stroke-width="2.5"/>
+  <rect x="183" y="278" width="14" height="22" rx="1"
+        fill="none" stroke="#4a2d1a" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Bog 2: orange, læner -->
+  <g transform="rotate(-5 215 290)">
+    <rect x="205" y="262" width="22" height="60"
+          fill="#d8893a" stroke="#4a2d1a" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="205" y1="274" x2="227" y2="274" stroke="#4a2d1a" stroke-width="2.5"/>
+    <line x1="205" y1="310" x2="227" y2="310" stroke="#4a2d1a" stroke-width="2.5"/>
+    <rect x="209" y="285" width="14" height="18" rx="1"
+          fill="none" stroke="#4a2d1a" stroke-width="1.5" opacity="0.7"/>
+  </g>
+
+  <!-- Bog 3: sennep-gul, høj midter -->
+  <rect x="234" y="243" width="28" height="79"
+        fill="#e8b96b" stroke="#4a2d1a" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="234" y1="258" x2="262" y2="258" stroke="#4a2d1a" stroke-width="2.5"/>
+  <line x1="234" y1="310" x2="262" y2="310" stroke="#4a2d1a" stroke-width="2.5"/>
+  <rect x="240" y="271" width="16" height="24" rx="1"
+        fill="none" stroke="#4a2d1a" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Bog 4: rosenrød, læner -->
+  <g transform="rotate(3 280 290)">
+    <rect x="270" y="258" width="22" height="64"
+          fill="#d96b6b" stroke="#4a2d1a" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="270" y1="270" x2="292" y2="270" stroke="#4a2d1a" stroke-width="2.5"/>
+    <line x1="270" y1="310" x2="292" y2="310" stroke="#4a2d1a" stroke-width="2.5"/>
+    <rect x="274" y="282" width="14" height="20" rx="1"
+          fill="none" stroke="#fef2d0" stroke-width="1.5" opacity="0.9"/>
+  </g>
+
+  <!-- Bog 5: lavendel-lilla -->
+  <rect x="297" y="255" width="24" height="67"
+        fill="#9d7eb8" stroke="#4a2d1a" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="297" y1="267" x2="321" y2="267" stroke="#4a2d1a" stroke-width="2.5"/>
+  <line x1="297" y1="310" x2="321" y2="310" stroke="#4a2d1a" stroke-width="2.5"/>
+  <rect x="302" y="279" width="14" height="22" rx="1"
+        fill="none" stroke="#fef2d0" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Tekst -->
+  <text x="250" y="430"
+        font-family="Sansita, Georgia, serif"
+        font-weight="800"
+        font-size="68"
+        fill="#4a2d1a"
+        text-anchor="middle"
+        letter-spacing="-1">Bogbod</text>
+</svg>
