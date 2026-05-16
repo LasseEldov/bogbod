@@ -463,6 +463,67 @@
     font-size: 1.4rem;
   }
 
+  /* PAGINATION */
+  .pagination {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5vw 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+  }
+
+  .pagination button {
+    min-width: 44px;
+    height: 44px;
+    padding: 0 0.8rem;
+    background: var(--cream-light);
+    border: 1.5px solid var(--brown);
+    border-radius: 3px;
+    font-family: 'Fraunces', serif;
+    font-size: 0.95rem;
+    color: var(--brown);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .pagination button:hover:not(:disabled):not(.active) {
+    background: var(--cream-deep);
+  }
+
+  .pagination button.active {
+    background: var(--brown);
+    color: var(--cream);
+    cursor: default;
+  }
+
+  .pagination button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  .pagination .ellipsis {
+    min-width: 24px;
+    text-align: center;
+    color: var(--brown-soft);
+    font-family: 'Fraunces', serif;
+    user-select: none;
+  }
+
+  .pagination .nav-btn {
+    font-weight: 500;
+  }
+
+  @media (max-width: 640px) {
+    .pagination { gap: 0.3rem; padding-bottom: 3rem; }
+    .pagination button { min-width: 40px; height: 40px; font-size: 0.85rem; padding: 0 0.5rem; }
+    .pagination .nav-btn span { display: none; }
+  }
+
   /* FOOTER */
   footer {
     background: var(--brown);
@@ -583,6 +644,8 @@
 <div class="results-info" id="results-info"></div>
 
 <div class="grid" id="grid"></div>
+
+<nav class="pagination" id="pagination" aria-label="Sidenavigation"></nav>
 
 <footer>
   <div class="footer-inner">
@@ -748,6 +811,8 @@
   let books = [];
   let searchTerm = '';
   let sortBy = 'newest';
+  let currentPage = 1;
+  const PER_PAGE = 80;
 
   // ===== INIT =====
   async function init() {
@@ -768,11 +833,13 @@
 
     document.getElementById('search').addEventListener('input', (e) => {
       searchTerm = e.target.value.toLowerCase().trim();
+      currentPage = 1;
       renderBooks();
     });
 
     document.getElementById('sort').addEventListener('change', (e) => {
       sortBy = e.target.value;
+      currentPage = 1;
       renderBooks();
     });
   }
@@ -828,19 +895,37 @@
     }
 
     // Results info
+    const total = filtered.length;
+    const totalPages = Math.max(1, Math.ceil(total / PER_PAGE));
+
+    // Clamp currentPage in case the filtered list shrank
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+
+    const startIdx = (currentPage - 1) * PER_PAGE;
+    const endIdx = Math.min(startIdx + PER_PAGE, total);
+    const pageItems = filtered.slice(startIdx, endIdx);
+
     const info = document.getElementById('results-info');
-    info.innerHTML = filtered.length === books.length
-      ? `Viser <strong>${books.length}</strong> bøger i samlingen`
-      : `Viser <strong>${filtered.length}</strong> af <strong>${books.length}</strong> bøger`;
+    if (total === 0) {
+      info.innerHTML = '';
+    } else if (total <= PER_PAGE) {
+      info.innerHTML = total === books.length
+        ? `Viser <strong>${total}</strong> bøger i samlingen`
+        : `Viser <strong>${total}</strong> af <strong>${books.length}</strong> bøger`;
+    } else {
+      info.innerHTML = `Viser <strong>${startIdx + 1}–${endIdx}</strong> af <strong>${total}</strong> bøger`;
+    }
 
     // Render
     const grid = document.getElementById('grid');
-    if (filtered.length === 0) {
+    if (total === 0) {
       grid.innerHTML = `<div class="empty">Ingen bøger fundet. Prøv en anden søgning.</div>`;
+      renderPagination(0, 1);
       return;
     }
 
-    grid.innerHTML = filtered.map((b, i) => {
+    grid.innerHTML = pageItems.map((b, i) => {
       // DBA export has no condition/author/category — only added date & location.
       // All books are in Silkeborg, so we don't show location anywhere.
       const badge = b.condition || (b.added ? `Oprettet ${b.added}` : '');
@@ -866,6 +951,76 @@
         </div>
       </article>`;
     }).join('');
+
+    renderPagination(total, totalPages);
+  }
+
+  // ===== PAGINATION CONTROLS =====
+  function goToPage(p) {
+    currentPage = p;
+    renderBooks();
+    // Scroll back up to the controls so the user sees the new page from the top
+    const anchor = document.querySelector('.controls');
+    if (anchor) anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function buildPageList(current, totalPages) {
+    // Returns an array of page numbers and '…' strings.
+    // Always show: first, last, current, and one neighbour each side.
+    const pages = [];
+    const window = 1; // neighbours on each side of current
+    const showLeftDots = current - window > 2;
+    const showRightDots = current + window < totalPages - 1;
+
+    pages.push(1);
+    if (showLeftDots) pages.push('…');
+
+    const start = Math.max(2, current - window);
+    const end = Math.min(totalPages - 1, current + window);
+    for (let i = start; i <= end; i++) pages.push(i);
+
+    if (showRightDots) pages.push('…');
+    if (totalPages > 1) pages.push(totalPages);
+
+    return pages;
+  }
+
+  function renderPagination(total, totalPages) {
+    const nav = document.getElementById('pagination');
+    if (!nav) return;
+
+    // Hide pagination entirely if there's only one page (or no results)
+    if (total === 0 || totalPages <= 1) {
+      nav.innerHTML = '';
+      return;
+    }
+
+    let html = '';
+
+    // Previous button
+    html += `<button class="nav-btn" ${currentPage === 1 ? 'disabled' : ''} data-page="${currentPage - 1}" aria-label="Forrige side">‹ <span>Forrige</span></button>`;
+
+    // Page numbers
+    buildPageList(currentPage, totalPages).forEach(p => {
+      if (p === '…') {
+        html += `<span class="ellipsis">…</span>`;
+      } else {
+        html += `<button class="${p === currentPage ? 'active' : ''}" data-page="${p}" aria-label="Side ${p}" ${p === currentPage ? 'aria-current="page"' : ''}>${p}</button>`;
+      }
+    });
+
+    // Next button
+    html += `<button class="nav-btn" ${currentPage === totalPages ? 'disabled' : ''} data-page="${currentPage + 1}" aria-label="Næste side"><span>Næste</span> ›</button>`;
+
+    nav.innerHTML = html;
+
+    nav.querySelectorAll('button[data-page]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (btn.disabled) return;
+        const p = parseInt(btn.dataset.page, 10);
+        if (!isNaN(p) && p !== currentPage) goToPage(p);
+      });
+    });
   }
 
   function escapeHtml(s) {
