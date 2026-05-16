@@ -572,7 +572,6 @@
   <div class="search-box">
     <input type="text" id="search" placeholder="Søg efter titel, forfatter eller emne…">
   </div>
-  <div class="filter-group" id="filters"></div>
   <select class="sort-select" id="sort">
     <option value="newest">Nyeste først</option>
     <option value="price-low">Pris: lav til høj</option>
@@ -747,7 +746,6 @@
 
   // ===== STATE =====
   let books = [];
-  let activeLocation = 'Alle';
   let searchTerm = '';
   let sortBy = 'newest';
 
@@ -766,7 +764,6 @@
       books = SAMPLE_BOOKS;
     }
 
-    renderFilters();
     renderBooks();
 
     document.getElementById('search').addEventListener('input', (e) => {
@@ -777,29 +774,6 @@
     document.getElementById('sort').addEventListener('change', (e) => {
       sortBy = e.target.value;
       renderBooks();
-    });
-  }
-
-  // ===== FILTERS =====
-  // We filter by location (which is what DBA gives us). If location is missing,
-  // fall back to category for sample data.
-  function getFacet(b) {
-    return b.location || b.category || 'Andet';
-  }
-
-  function renderFilters() {
-    const facets = ['Alle', ...new Set(books.map(getFacet))].slice(0, 12);
-    const container = document.getElementById('filters');
-    container.innerHTML = facets.map(f => `
-      <button class="filter-btn ${f === activeLocation ? 'active' : ''}" data-facet="${f.replace(/"/g, '&quot;')}">${f}</button>
-    `).join('');
-
-    container.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        activeLocation = btn.dataset.facet;
-        renderFilters();
-        renderBooks();
-      });
     });
   }
 
@@ -836,13 +810,9 @@
   function renderBooks() {
     let filtered = books.slice();
 
-    if (activeLocation !== 'Alle') {
-      filtered = filtered.filter(b => getFacet(b) === activeLocation);
-    }
-
     if (searchTerm) {
       filtered = filtered.filter(b => {
-        const hay = [b.title, b.author, b.category, b.location]
+        const hay = [b.title, b.author, b.category]
           .filter(Boolean).join(' ').toLowerCase();
         return hay.includes(searchTerm);
       });
@@ -871,9 +841,11 @@
     }
 
     grid.innerHTML = filtered.map((b, i) => {
-      const badge = b.condition || b.location || '';
-      const sub = b.author ? `af ${b.author}` : (b.added || '');
-      const facet = b.category || b.location || '';
+      // DBA export has no condition/author/category — only added date & location.
+      // All books are in Silkeborg, so we don't show location anywhere.
+      const badge = b.condition || (b.added ? `Oprettet ${b.added}` : '');
+      const sub = b.author ? `af ${b.author}` : '';
+      const facet = b.category || '';
       const priceText = b.price != null
         ? `${b.price.toLocaleString('da-DK')}<span class="kr"> kr.</span>`
         : `<span class="kr">Pris på DBA</span>`;

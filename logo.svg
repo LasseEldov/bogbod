@@ -2,8 +2,7 @@
   <title>Bogbod</title>
   <desc>Vejbod-skur med fem stående bøger i pastelfarver</desc>
 
-  <!-- Background -->
-  <rect width="500" height="500" fill="#fce8b8"/>
+  <!-- Background: transparent so it blends with the page -->
 
   <!-- Saddeltag -->
   <path d="M 110 200 L 250 110 L 390 200 Z"
