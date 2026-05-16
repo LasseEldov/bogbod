@@ -258,6 +258,34 @@
     color: var(--cream);
   }
 
+  .cat-group {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .cat-btn {
+    padding: 0.75rem 1.3rem;
+    background: transparent;
+    border: 1.5px solid var(--brown);
+    border-radius: 3px;
+    font-family: 'Fraunces', serif;
+    font-size: 0.9rem;
+    color: var(--brown);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+
+  .cat-btn:hover:not(.active) {
+    background: var(--cream-deep);
+  }
+
+  .cat-btn.active {
+    background: var(--brown);
+    color: var(--cream);
+  }
+
   .sort-select {
     padding: 0.75rem 2.2rem 0.75rem 1rem;
     background: var(--cream-light);
@@ -633,6 +661,11 @@
   <div class="search-box">
     <input type="text" id="search" placeholder="Søg efter titel, forfatter eller emne…">
   </div>
+  <div class="cat-group" id="cat-filters">
+    <button class="cat-btn active" data-cat="boger">Bøger</button>
+    <button class="cat-btn" data-cat="andet">Andet</button>
+    <button class="cat-btn" data-cat="alle">Alle</button>
+  </div>
   <select class="sort-select" id="sort">
     <option value="newest">Nyeste først</option>
     <option value="price-low">Pris: lav til høj</option>
@@ -807,11 +840,29 @@
     }
   ];
 
+  // ===== IKKE-BOG ANNONCER =====
+  // Indsæt her DBA-ID'erne på de annoncer der IKKE er bøger.
+  // ID'et er tallet i dbaLink (fx dba.dk/19518382 -> "19518382"),
+  // og står også som "id" i books.json.
+  // Disse vises under kategorien "Andet" i stedet for "Bøger".
+  // Eksempel: const NON_BOOK_IDS = ["19518382", "20011234", "19887766"];
+  const NON_BOOK_IDS = ["13819992", "15746878", "13841841", "15987678", "19741751", "13852458", "19801010", "21284812", "17626656", "13379411", "13379225", "19726458", "19379618", "19673327", "18503115", "16404704", "19262079", "20286507"];
+    // skriv dine ~18 ID'er her, hver i citationstegn med komma efter, fx:
+    // "19518382",
+    // "20011234",
+  ];
+  const nonBookSet = new Set(NON_BOOK_IDS.map(String));
+
+  function isBook(b) {
+    return !nonBookSet.has(String(b.id));
+  }
+
   // ===== STATE =====
   let books = [];
   let searchTerm = '';
   let sortBy = 'newest';
   let currentPage = 1;
+  let activeCategory = 'boger'; // 'boger' | 'andet' | 'alle'  (standard: kun bøger)
   const PER_PAGE = 80;
 
   // ===== INIT =====
@@ -841,6 +892,17 @@
       sortBy = e.target.value;
       currentPage = 1;
       renderBooks();
+    });
+
+    document.querySelectorAll('.cat-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeCategory = btn.dataset.cat;
+        currentPage = 1;
+        document.querySelectorAll('.cat-btn').forEach(b => {
+          b.classList.toggle('active', b === btn);
+        });
+        renderBooks();
+      });
     });
   }
 
@@ -877,6 +939,14 @@
   function renderBooks() {
     let filtered = books.slice();
 
+    // Category filter: bøger (default), andet, or alle
+    if (activeCategory === 'boger') {
+      filtered = filtered.filter(isBook);
+    } else if (activeCategory === 'andet') {
+      filtered = filtered.filter(b => !isBook(b));
+    }
+    // 'alle' = no category filtering
+
     if (searchTerm) {
       filtered = filtered.filter(b => {
         const hay = [b.title, b.author, b.category]
@@ -907,14 +977,13 @@
     const pageItems = filtered.slice(startIdx, endIdx);
 
     const info = document.getElementById('results-info');
+    const noun = activeCategory === 'andet' ? 'annoncer' : 'bøger';
     if (total === 0) {
       info.innerHTML = '';
     } else if (total <= PER_PAGE) {
-      info.innerHTML = total === books.length
-        ? `Viser <strong>${total}</strong> bøger i samlingen`
-        : `Viser <strong>${total}</strong> af <strong>${books.length}</strong> bøger`;
+      info.innerHTML = `Viser <strong>${total}</strong> ${noun}`;
     } else {
-      info.innerHTML = `Viser <strong>${startIdx + 1}–${endIdx}</strong> af <strong>${total}</strong> bøger`;
+      info.innerHTML = `Viser <strong>${startIdx + 1}–${endIdx}</strong> af <strong>${total}</strong> ${noun}`;
     }
 
     // Render
