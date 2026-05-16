@@ -973,7 +973,7 @@
     const pageItems = filtered.slice(startIdx, endIdx);
 
     const info = document.getElementById('results-info');
-    const noun = activeCategory === 'andet' ? 'annoncer' : 'bøger';
+    const noun = activeCategory === 'boger' ? 'bøger' : 'annoncer';
     if (total === 0) {
       info.innerHTML = '';
     } else if (total <= PER_PAGE) {
