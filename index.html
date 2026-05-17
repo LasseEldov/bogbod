@@ -666,6 +666,14 @@
     <button class="cat-btn" data-cat="andet">Andet</button>
     <button class="cat-btn" data-cat="alle">Alle</button>
   </div>
+  <select class="sort-select" id="emne" aria-label="Vælg emne">
+    <option value="alle">Alle emner</option>
+    <option value="fiskeri">Fiskeri</option>
+    <option value="heste">Heste</option>
+    <option value="jagt">Jagt</option>
+    <option value="hunde">Hunde</option>
+    <option value="silkeborg">Silkeborg-bøger</option>
+  </select>
   <select class="sort-select" id="sort">
     <option value="newest">Nyeste først</option>
     <option value="price-low">Pris: lav til høj</option>
@@ -853,8 +861,41 @@
     return !nonBookSet.has(String(b.id));
   }
 
+  // ===== EMNE-KATEGORIER =====
+  // DBA-ID'er grupperet per emne. En bog kan godt stå i flere lister.
+  // Vil du tilføje en bog til et emne: find dens DBA-id (tallet i dba.dk/XXXXX)
+  // og skriv det ind i den rigtige liste herunder. Eller send id'erne til Claude.
+  const EMNER = {
+    "fiskeri":   ["404201","21078233","20053417","9993401","20052812","20053404","9993892","16129938","20979484","16268332","2944243","875075","9993592","19873619","9993701","14148245","3470562","21078231","16159263","16158022","9993748","14337405","14385830","13904166","20084201"],
+    "heste":     ["19800994","16733596","3001857","3133451","3004145","18069767","2969090","21078208","14974188","10036017","3003835","562560","2943196","2255266","3038733","16251249","13953610","21078207","3024135"],
+    "jagt":      ["20838449","5490676","14385581","13716385","14337128","15121170","5415814","14212180","2741748","2275152","21078225","20084199","14386337","13716581","2948515","13853420","17316088","14385641"],
+    "hunde":     ["2401917","8168354","831042","2450300","9375119","2464982","19265702","16221413","2733413","14385641","2404740","17316088","20186750","8248526","21078230","15850896","16186914","16927473","14840805","13853420","21078226"],
+    "silkeborg": ["2935129","14637617","338337","2216343","18069824","2754806","3466081","2217447","2405132","19800999","8215880","1184232","2343808","19272288","19510957","19673341"]
+  };
+  const EMNE_LABELS = {
+    "fiskeri": "Fiskeri",
+    "heste": "Heste",
+    "jagt": "Jagt",
+    "hunde": "Hunde",
+    "silkeborg": "Silkeborg-bøger"
+  };
+  // Build a fast lookup: id -> Set of emne-keys
+  const emneMap = {};
+  for (const key in EMNER) {
+    EMNER[key].forEach(id => {
+      const s = String(id);
+      if (!emneMap[s]) emneMap[s] = new Set();
+      emneMap[s].add(key);
+    });
+  }
+  function bookHasEmne(b, key) {
+    const s = emneMap[String(b.id)];
+    return s ? s.has(key) : false;
+  }
+
   // ===== STATE =====
   let books = [];
+  let activeEmne = 'alle'; // 'alle' = ingen emne-filtrering
   let searchTerm = '';
   let sortBy = 'newest';
   let currentPage = 1;
@@ -886,6 +927,12 @@
 
     document.getElementById('sort').addEventListener('change', (e) => {
       sortBy = e.target.value;
+      currentPage = 1;
+      renderBooks();
+    });
+
+    document.getElementById('emne').addEventListener('change', (e) => {
+      activeEmne = e.target.value;
       currentPage = 1;
       renderBooks();
     });
@@ -943,6 +990,11 @@
     }
     // 'alle' = no category filtering
 
+    // Emne-filter (dropdown): vis kun bøger i det valgte emne
+    if (activeEmne !== 'alle') {
+      filtered = filtered.filter(b => bookHasEmne(b, activeEmne));
+    }
+
     if (searchTerm) {
       filtered = filtered.filter(b => {
         const hay = [b.title, b.author, b.category]
@@ -974,12 +1026,14 @@
 
     const info = document.getElementById('results-info');
     const noun = activeCategory === 'boger' ? 'bøger' : 'annoncer';
+    const emneSuffix = (activeEmne !== 'alle' && EMNE_LABELS[activeEmne])
+      ? ` i emnet <strong>${EMNE_LABELS[activeEmne]}</strong>` : '';
     if (total === 0) {
       info.innerHTML = '';
     } else if (total <= PER_PAGE) {
-      info.innerHTML = `Viser <strong>${total}</strong> ${noun}`;
+      info.innerHTML = `Viser <strong>${total}</strong> ${noun}${emneSuffix}`;
     } else {
-      info.innerHTML = `Viser <strong>${startIdx + 1}–${endIdx}</strong> af <strong>${total}</strong> ${noun}`;
+      info.innerHTML = `Viser <strong>${startIdx + 1}–${endIdx}</strong> af <strong>${total}</strong> ${noun}${emneSuffix}`;
     }
 
     // Render
