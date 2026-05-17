@@ -659,7 +659,7 @@
 
 <div class="controls">
   <div class="search-box">
-    <input type="text" id="search" placeholder="Søg efter titel, forfatter eller emne…">
+    <input type="text" id="search" placeholder="Søg efter titel…">
   </div>
   <div class="cat-group" id="cat-filters">
     <button class="cat-btn active" data-cat="boger">Bøger</button>
@@ -1039,7 +1039,7 @@
     // Render
     const grid = document.getElementById('grid');
     if (total === 0) {
-      grid.innerHTML = `<div class="empty">Ingen bøger fundet. Prøv en anden søgning.</div>`;
+      grid.innerHTML = `<div class="empty">Ingen annoncer fundet. Prøv en anden søgning.</div>`;
       renderPagination(0, 1);
       return;
     }
