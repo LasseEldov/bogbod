@@ -1,5 +1,23 @@
 [
   {
+    "id": "21483975",
+    "title": "Kunstvejviser - med Broby... 11 Bind",
+    "price": 75,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/21483975/eb3da8d2-373d-480b-ba22-ce3cbd7343d8",
+    "location": "Silkeborg",
+    "added": "18.5.2026",
+    "dbaLink": "https://www.dba.dk/21483975"
+  },
+  {
+    "id": "21478584",
+    "title": "Flora for skoler (norsk)",
+    "price": 20,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/21478584/428ebee6-e00c-43f3-a0ff-76d6e23fedca",
+    "location": "Silkeborg",
+    "added": "17.5.2026",
+    "dbaLink": "https://www.dba.dk/21478584"
+  },
+  {
     "id": "21284815",
     "title": "Charles Dickens - Four Complete Novels",
     "price": 50,
@@ -32,7 +50,7 @@
     "price": 125,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/21284810/9d4b80dd-ca97-4e76-8d94-ffa0713ebc95",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/21284810"
   },
   {
@@ -41,8 +59,44 @@
     "price": 80,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/21284808/0b855aac-b32f-4c36-8e61-2215431b7674",
     "location": "Silkeborg",
-    "added": "I dag",
+    "added": "15.5.2026",
     "dbaLink": "https://www.dba.dk/21284808"
+  },
+  {
+    "id": "21284807",
+    "title": "Fra græsplæne til grøntsagsmark",
+    "price": 75,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/21284807/0f77b994-b369-4fef-a651-0adc98ed1821",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/21284807"
+  },
+  {
+    "id": "21284805",
+    "title": "Atomfysik og menneskelig erkendelse",
+    "price": 50,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/21284805/998b128a-2fbc-4ff1-bac6-5eb84fd9eaef",
+    "location": "Silkeborg",
+    "added": "17.5.2026",
+    "dbaLink": "https://www.dba.dk/21284805"
+  },
+  {
+    "id": "21284801",
+    "title": "Just Memories - Peter Lundberg",
+    "price": 299,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/21284801/a6a0dee9-db4e-41b4-af4f-a87801ea6123",
+    "location": "Silkeborg",
+    "added": "17.5.2026",
+    "dbaLink": "https://www.dba.dk/21284801"
+  },
+  {
+    "id": "21284799",
+    "title": "Madhuri Jeffrey's World Vegetarian",
+    "price": 250,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/21284799/3688468f-0929-4620-b17c-e031fd4cca3c",
+    "location": "Silkeborg",
+    "added": "17.5.2026",
+    "dbaLink": "https://www.dba.dk/21284799"
   },
   {
     "id": "21284797",
@@ -52,6 +106,24 @@
     "location": "Silkeborg",
     "added": "11.5.2026",
     "dbaLink": "https://www.dba.dk/21284797"
+  },
+  {
+    "id": "21284796",
+    "title": "Drømmen Lever - 40 år i landsbykollektivet Toustrup Mark",
+    "price": 50,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/21284796/cc470331-2870-420d-ad9c-ac32ccd1e4b7",
+    "location": "Silkeborg",
+    "added": "17.5.2026",
+    "dbaLink": "https://www.dba.dk/21284796"
+  },
+  {
+    "id": "21284795",
+    "title": "Gaverne fra himlen",
+    "price": 88,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/21284795/f0bdf06a-2cc0-47af-9cf4-bddb32d2451b",
+    "location": "Silkeborg",
+    "added": "17.5.2026",
+    "dbaLink": "https://www.dba.dk/21284795"
   },
   {
     "id": "21284457",
@@ -1370,7 +1442,7 @@
   {
     "id": "20603570",
     "title": "Mad, mening og magiske øjeblikke",
-    "price": null,
+    "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/20603570/4d35641e-5a5b-4398-9165-12b2d49d43c6",
     "location": "Silkeborg",
     "added": "17.4.2026",
@@ -2082,7 +2154,7 @@
     "id": "20186758",
     "title": "Lær at tegne heste og ponyer",
     "price": 200,
-    "image": "https://images.dbastatic.dk/dynamic/480w/item/16581188/dfd70982-9b7b-42ff-8a14-9bb160434e81",
+    "image": "https://images.dbastatic.dk/dynamic/480w/2024/11/vertical-0/28/1/247/562/1_121b575f-9009-4ce0-b0e6-bb40062f4d1f.jpg",
     "location": "Silkeborg",
     "added": "4.4.2026",
     "dbaLink": "https://www.dba.dk/20186758"
@@ -2122,15 +2194,6 @@
     "location": "Silkeborg",
     "added": "5.4.2026",
     "dbaLink": "https://www.dba.dk/20186754"
-  },
-  {
-    "id": "20186753",
-    "title": "Grønne Spirer - Alt om vegansk ernæring til børn",
-    "price": 90,
-    "image": "https://images.dbastatic.dk/dynamic/480w/item/20186753/b599a9ef-feab-4f9a-9139-da949bd67243",
-    "location": "Silkeborg",
-    "added": "5.4.2026",
-    "dbaLink": "https://www.dba.dk/20186753"
   },
   {
     "id": "20186752",
@@ -2934,24 +2997,6 @@
     "dbaLink": "https://www.dba.dk/19800999"
   },
   {
-    "id": "19800998",
-    "title": "Akvarelmaling",
-    "price": 60,
-    "image": "https://images.dbastatic.dk/dynamic/480w/item/19800998/93052bd6-d3d0-4466-97cb-0fbd00528629",
-    "location": "Silkeborg",
-    "added": "25.3.2026",
-    "dbaLink": "https://www.dba.dk/19800998"
-  },
-  {
-    "id": "19800995",
-    "title": "Naturlig smertebehandling",
-    "price": 60,
-    "image": "https://images.dbastatic.dk/dynamic/480w/item/19800995/5fe85b86-a717-463b-bdc3-3739da3efd29",
-    "location": "Silkeborg",
-    "added": "25.3.2026",
-    "dbaLink": "https://www.dba.dk/19800995"
-  },
-  {
     "id": "19800994",
     "title": "The Barefoot Horse",
     "price": 100,
@@ -2966,17 +3011,8 @@
     "price": 250,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19789170/8af8d13c-6fc1-4a75-94cc-1958d184180e",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19789170"
-  },
-  {
-    "id": "19789169",
-    "title": "Jan van Haasteren puslespil",
-    "price": 60,
-    "image": "https://images.dbastatic.dk/dynamic/480w/item/19789169/af850607-03e5-4d34-83fb-864609e4be92",
-    "location": "Silkeborg",
-    "added": "23.3.2026",
-    "dbaLink": "https://www.dba.dk/19789169"
   },
   {
     "id": "19789167",
@@ -2984,7 +3020,7 @@
     "price": 30,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19789167/1e464df4-ebec-4c96-a9bc-f9d12e6ea67f",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19789167"
   },
   {
@@ -2993,25 +3029,25 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19789166/0731484b-61de-4bc1-a502-36789b202297",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19789166"
   },
   {
     "id": "19789159",
     "title": "Det Bedstes Gør-det-selv Håndbog",
-    "price": 120,
+    "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19789159/3069239f-ac0b-4f5c-bb6f-5672ca567e71",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19789159"
   },
   {
     "id": "19741754",
     "title": "Pranayama og yoga-asanas",
-    "price": 150,
+    "price": 125,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19741754/2082be5a-c71b-41ae-8b8a-c9464acfa905",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19741754"
   },
   {
@@ -3020,34 +3056,34 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19741751/869ef788-ac3b-42c0-8df5-fa531ea14b7a",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19741751"
   },
   {
     "id": "19741748",
     "title": "Havens buske og træer",
-    "price": 75,
+    "price": 65,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19741748/8400b451-6ded-4fff-8468-f8b012349f5e",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19741748"
   },
   {
     "id": "19741746",
     "title": "Havens Blomster i Farver",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19741746/09938dd0-60d3-4be0-925a-df8f4ccce606",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19741746"
   },
   {
     "id": "19741743",
     "title": "Det nye testamente",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19741743/03e7c347-2836-4d0e-ae78-5cb724e4bb7e",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19741743"
   },
   {
@@ -3056,7 +3092,7 @@
     "price": 200,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19741741/2951f1cc-c8c5-4b49-9b82-db9df75c21b5",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19741741"
   },
   {
@@ -3065,7 +3101,7 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19741739/b901d76c-590c-48fb-9dd6-b1035933998c",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19741739"
   },
   {
@@ -3074,7 +3110,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19741738/1b66e3c4-ceca-485c-ab9c-b049893620b4",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19741738"
   },
   {
@@ -3083,7 +3119,7 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19741736/ff882285-3b66-415c-88e1-c84769409e4b",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/19741736"
   },
   {
@@ -3092,7 +3128,7 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19741180/d2f83231-2c33-44ce-af0a-1b7999419b2f",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19741180"
   },
   {
@@ -3101,16 +3137,16 @@
     "price": 200,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732675/17676048-7749-4fb1-92e9-bf819071e9b4",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19732675"
   },
   {
     "id": "19732592",
     "title": "Danske Julefortællinger - Fra St. St. Blicher til Villy Sørensen",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732592/a156faf2-edb0-4505-a354-eedc43cadec9",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19732592"
   },
   {
@@ -3119,7 +3155,7 @@
     "price": 200,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732584/4c592916-d669-446a-b6ac-627022593be5",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19732584"
   },
   {
@@ -3128,7 +3164,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732583/f8395179-7670-4643-87ec-c712c52989c0",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19732583"
   },
   {
@@ -3137,7 +3173,7 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732578/7dee7f79-53c4-40cd-a45b-503027e93493",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19732578"
   },
   {
@@ -3146,25 +3182,25 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732576/f1787ace-3f36-4316-a43f-fc56fb0b8953",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19732576"
   },
   {
     "id": "19732575",
     "title": "Den skinbarlige virkelighed - 3. Udgave",
-    "price": 20,
+    "price": 15,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732575/cadef1b1-50aa-4425-be39-184e50f77be3",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19732575"
   },
   {
     "id": "19732574",
     "title": "Ophæv Tyngdekraften - Helbredelse på trods af al fornuft",
-    "price": 30,
+    "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732574/365ffd9f-4cf1-4215-8bd7-e4507da323fc",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19732574"
   },
   {
@@ -3173,7 +3209,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732572/73b94aaa-4bd6-4744-8d0d-51089076510c",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19732572"
   },
   {
@@ -3182,7 +3218,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732570/61749622-ff09-4f31-a473-ed6d4c58ad73",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19732570"
   },
   {
@@ -3191,7 +3227,7 @@
     "price": 75,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732568/ee64a01e-1db6-4310-a982-1c2a68f582d2",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19732568"
   },
   {
@@ -3200,7 +3236,7 @@
     "price": 65,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732555/44aba417-6115-46e5-8dea-43a6ebaf8fcf",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19732555"
   },
   {
@@ -3209,16 +3245,16 @@
     "price": 80,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732318/4567ddee-3455-42ef-b8d9-24aefffb69d4",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19732318"
   },
   {
     "id": "19732117",
     "title": "Instruktørvirke i Forsvaret",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732117/c5d7844c-9fe1-44c9-ae07-12417492225e",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19732117"
   },
   {
@@ -3227,7 +3263,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19732021/7d5fd9e2-f7c7-447f-90b7-b19cf40f62c2",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19732021"
   },
   {
@@ -3236,7 +3272,7 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19726463/57280b9d-0f37-4c78-8c01-22e13c4d2aa5",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19726463"
   },
   {
@@ -3245,7 +3281,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19726460/fa88ea4a-a97c-48f3-a217-bb1b589e86cd",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19726460"
   },
   {
@@ -3254,16 +3290,16 @@
     "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19726459/6bbcb75b-852d-44d8-90d1-b0a293fd552a",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19726459"
   },
   {
     "id": "19726458",
     "title": "Magnetisk rejseskak sæt",
-    "price": 200,
+    "price": 175,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19726458/7da64572-f9f0-4f26-b3b0-1c84bf9995d3",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19726458"
   },
   {
@@ -3272,7 +3308,7 @@
     "price": 500,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19726454/76a72311-4329-4bf5-b76a-36887e79c1fd",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/19726454"
   },
   {
@@ -3281,7 +3317,7 @@
     "price": 250,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19726452/ba3dd52b-08d6-4db5-b736-92e2039fad07",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19726452"
   },
   {
@@ -3290,7 +3326,7 @@
     "price": 60,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19726451/5dea89b3-4906-4c78-9b0d-38e4cd6044b1",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19726451"
   },
   {
@@ -3299,7 +3335,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19726449/fae576a7-fd49-4b16-883d-d297df8ca465",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19726449"
   },
   {
@@ -3308,25 +3344,25 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19709888/93e5d930-9e7e-40e3-9202-9a29de963655",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19709888"
   },
   {
     "id": "19698883",
     "title": "Rolf Sørensens store cykelalmanak - Året rundt på to hjul",
-    "price": 100,
+    "price": 80,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19698883/b2f2bdd5-9a26-4e81-99e0-7257c8ee3007",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19698883"
   },
   {
     "id": "19698862",
     "title": "Vilde Blomster i Danmark og Nordeuropa",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19698862/c62180b1-bcc6-4959-ae60-d4c82039201a",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19698862"
   },
   {
@@ -3335,7 +3371,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673343/7baf0ad5-b00d-47fe-baa4-557bd321c393",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "19.5.2026",
     "dbaLink": "https://www.dba.dk/19673343"
   },
   {
@@ -3344,25 +3380,25 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673341/02aae9f5-38cb-43d7-9b4c-27dcb1190d35",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "19.5.2026",
     "dbaLink": "https://www.dba.dk/19673341"
   },
   {
     "id": "19673340",
     "title": "Håndmalet russisk skaksæt med matrjosjka-figurer",
-    "price": 1000,
+    "price": 900,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673340/2b08a624-9ddd-40f9-8a18-c77e8ec1b19e",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "19.5.2026",
     "dbaLink": "https://www.dba.dk/19673340"
   },
   {
     "id": "19673338",
     "title": "Naturen til bords",
-    "price": 80,
+    "price": 65,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673338/3bc1b306-daf7-4cc1-b92d-95db4d2c2d93",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673338"
   },
   {
@@ -3371,7 +3407,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673337/0e7a7827-4f12-401d-9cb4-6cc6b622308c",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673337"
   },
   {
@@ -3380,7 +3416,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673336/14bcfb2d-9595-4bfa-ab19-a3ea1cb7a94a",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673336"
   },
   {
@@ -3389,7 +3425,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673335/97a3a96c-7649-4ed8-8fb6-505ff5bd91d1",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673335"
   },
   {
@@ -3398,16 +3434,16 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673334/287ab4d0-fe0b-4d54-81ae-46941c184884",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673334"
   },
   {
     "id": "19673333",
     "title": "Bogen der ikke ville læses",
-    "price": 45,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673333/de660e5b-2948-4808-9212-b16bcf081f06",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673333"
   },
   {
@@ -3416,7 +3452,7 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673331/57e5d150-3683-4e32-aa29-5a6fa442b6c3",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673331"
   },
   {
@@ -3425,7 +3461,7 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673330/f8ab707c-6216-4ccf-90c0-f627e82a116b",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673330"
   },
   {
@@ -3434,7 +3470,7 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673327/9c79a15f-f40a-4382-9f49-15ac65b26aea",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673327"
   },
   {
@@ -3443,7 +3479,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673326/f793a22f-0b50-415a-82f1-477120707cd0",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673326"
   },
   {
@@ -3452,16 +3488,16 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673323/71f6d320-897b-4cb6-b810-b9377b5c7ecf",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673323"
   },
   {
     "id": "19673322",
     "title": "Bo Bedre's bøger",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673322/5eff8721-c8e2-4ce2-ae4c-7dfff41c8de9",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673322"
   },
   {
@@ -3470,7 +3506,7 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673319/d64ece62-3184-497d-bff9-50e09028f594",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/19673319"
   },
   {
@@ -3479,7 +3515,7 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19673096/9a259e19-33b8-402f-9653-4e7726d62ba6",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "19.5.2026",
     "dbaLink": "https://www.dba.dk/19673096"
   },
   {
@@ -3488,7 +3524,7 @@
     "price": 80,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19670165/0e6d3b57-c9a2-4a8e-8236-91b6236ac993",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19670165"
   },
   {
@@ -3497,7 +3533,7 @@
     "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669626/7bb6d5d5-bc66-4c55-8455-188ebe4a4027",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669626"
   },
   {
@@ -3506,16 +3542,16 @@
     "price": 65,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669578/650c1a94-9f15-406e-a8ff-6589464a8092",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669578"
   },
   {
     "id": "19669520",
-    "title": "Steikketips",
+    "title": "Strikketips",
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669520/2c5836bf-7c49-40dd-8686-e316afff8338",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669520"
   },
   {
@@ -3524,16 +3560,16 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669432/40abd07c-d730-4cc8-9506-5a66e6b8caed",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669432"
   },
   {
     "id": "19669427",
     "title": "Ting af læder",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669427/44a64135-fce2-4f33-ae40-6631a6bf6e49",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669427"
   },
   {
@@ -3542,16 +3578,16 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669426/7f458c08-e941-4408-a3b2-1903657f154b",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669426"
   },
   {
     "id": "19669425",
     "title": "Mensa - Snørklede opgaver + Listige opgaver",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669425/440b4c5d-0ff0-44c4-ba80-80859c8d7add",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669425"
   },
   {
@@ -3560,7 +3596,7 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669424/2f15bf9b-8bd6-462c-b637-1e0eb041f651",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669424"
   },
   {
@@ -3569,16 +3605,16 @@
     "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669422/bffbf990-2819-4a1e-9080-6dd621105f23",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669422"
   },
   {
     "id": "19669421",
     "title": "Videregående Sportsdykning",
-    "price": 150,
+    "price": 125,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669421/1714aa21-2c62-4ed7-a665-b8b2957ddf6c",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669421"
   },
   {
@@ -3587,34 +3623,34 @@
     "price": 85,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669420/c71a1602-6eac-40b3-9d08-61ddea6e34ec",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669420"
   },
   {
     "id": "19669417",
     "title": "Sy med Broderi",
-    "price": 100,
+    "price": 85,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669417/b791d170-9e98-4483-820c-f354bba1c078",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19669417"
   },
   {
     "id": "19669415",
     "title": "Pica Pau og dyrevennerne",
-    "price": 125,
+    "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669415/e9ea7143-e5be-428d-9ede-8802b0b8f89f",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "19.5.2026",
     "dbaLink": "https://www.dba.dk/19669415"
   },
   {
     "id": "19669414",
     "title": "De syv første år",
-    "price": 500,
+    "price": 450,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19669414/f972eceb-4925-42a4-b753-7ab44bc063e3",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "19.5.2026",
     "dbaLink": "https://www.dba.dk/19669414"
   },
   {
@@ -3623,7 +3659,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19549114/172db3ca-335e-437d-97df-f864563ef672",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19549114"
   },
   {
@@ -3632,7 +3668,7 @@
     "price": 85,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19548897/17f57409-6fa7-425c-9c10-182443fc4ebb",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19548897"
   },
   {
@@ -3641,7 +3677,7 @@
     "price": 175,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19548566/039d70a6-961a-45d9-967f-6f191a86c64a",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19548566"
   },
   {
@@ -3650,7 +3686,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19548561/e2ae48b5-65a8-44c1-9a8d-1a156ab61c0c",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19548561"
   },
   {
@@ -3659,7 +3695,7 @@
     "price": 75,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19548558/b95d0772-53c9-47f3-8f2d-8efbc6327325",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19548558"
   },
   {
@@ -3668,7 +3704,7 @@
     "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19548555/5493f3aa-4a69-4d44-83ac-03b8eb3370bb",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19548555"
   },
   {
@@ -3677,7 +3713,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19548550/bd15e7f6-0358-42e5-86df-5b6c63158ec4",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19548550"
   },
   {
@@ -3686,7 +3722,7 @@
     "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19548545/63dbc219-dc24-476e-818a-80215b839a0c",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19548545"
   },
   {
@@ -3695,16 +3731,16 @@
     "price": 200,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19548541/abdecf36-8bd8-4db9-b5a7-a0b9ecef06ff",
     "location": "Silkeborg",
-    "added": "18.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/19548541"
   },
   {
     "id": "19548539",
     "title": "Melody Harp",
-    "price": 250,
+    "price": 225,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19548539/bcf0780e-0fe8-4934-834b-ea50719ca758",
     "location": "Silkeborg",
-    "added": "18.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/19548539"
   },
   {
@@ -3713,7 +3749,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19548534/daccc243-8073-48fa-bf13-4d514fcf982f",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/19548534"
   },
   {
@@ -3740,7 +3776,7 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19518390/5114d84a-2e72-41fb-8df0-52e9fedbb55b",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19518390"
   },
   {
@@ -3749,7 +3785,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19518389/9b66d354-0e19-4a61-b6e0-4e9d3dcf26c1",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19518389"
   },
   {
@@ -3758,7 +3794,7 @@
     "price": 175,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19518386/f08d6299-8b9e-4aa5-82a1-d17fe4681963",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19518386"
   },
   {
@@ -3767,7 +3803,7 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19518384/5d3a5fac-fefd-4ad0-9eb3-2bd98240f659",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19518384"
   },
   {
@@ -3776,7 +3812,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19518383/adb79aa8-190f-49f0-9318-60350c5fa6af",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19518383"
   },
   {
@@ -3785,7 +3821,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19518382/25ea12c3-c9c4-47a7-90e9-f7b58aeda7e1",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19518382"
   },
   {
@@ -3794,7 +3830,7 @@
     "price": 75,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19518377/32517b05-ece8-4d28-8b2c-14afe7a470bb",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19518377"
   },
   {
@@ -3803,7 +3839,7 @@
     "price": 200,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/19518373/aeb340fc-a07b-4921-bb9b-3b7fb6268e54",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/19518373"
   },
   {
@@ -4129,15 +4165,6 @@
     "location": "Silkeborg",
     "added": "6.5.2026",
     "dbaLink": "https://www.dba.dk/19272277"
-  },
-  {
-    "id": "19272275",
-    "title": "Er du klogere end du tror?",
-    "price": 50,
-    "image": "https://images.dbastatic.dk/dynamic/480w/item/19272275/39098c12-1893-4ee9-934c-46e3c91744ed",
-    "location": "Silkeborg",
-    "added": "9.5.2026",
-    "dbaLink": "https://www.dba.dk/19272275"
   },
   {
     "id": "19266656",
@@ -5000,7 +5027,7 @@
     "price": 60,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/17806373/f1d1b1f9-dcc3-45cd-9d72-5aad5e40e0cb",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/17806373"
   },
   {
@@ -5009,7 +5036,7 @@
     "price": 250,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/17806220/3ef83407-f93e-4c2f-9bd4-a104c257dbc8",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/17806220"
   },
   {
@@ -5018,7 +5045,7 @@
     "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/17806156/78fb88ce-d894-4c91-947a-3c0105182d7e",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/17806156"
   },
   {
@@ -5027,16 +5054,16 @@
     "price": 125,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/17806107/3d673ffe-97fb-4a61-ae25-566f97b48ce7",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/17806107"
   },
   {
     "id": "17806024",
     "title": "Rosenkransen",
-    "price": 175,
+    "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/17806024/47299c03-447c-4bb1-bfb5-d9e34827473d",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/17806024"
   },
   {
@@ -5045,16 +5072,16 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/17775982/bcfa0589-f010-466a-bd80-87dc99cc5d65",
     "location": "Silkeborg",
-    "added": "18.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/17775982"
   },
   {
     "id": "17775954",
     "title": "Bibelen - Den gamle og den nye pagts kanoniske bøger",
-    "price": 85,
-    "image": "https://images.dbastatic.dk/dynamic/480w/item/17775954/6d25a617-fe6d-4e19-b74f-018dede0a7d7",
+    "price": 75,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/17775954/0519da7b-2cb8-476b-88b3-21915c0da2b7",
     "location": "Silkeborg",
-    "added": "18.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/17775954"
   },
   {
@@ -5063,16 +5090,16 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/17775903/3edfebfe-48df-467c-88f5-5a1ca45e26e7",
     "location": "Silkeborg",
-    "added": "18.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/17775903"
   },
   {
     "id": "17775856",
     "title": "Bibelen i kulturhistorisk lys 1-9 (bind 6 mangler)",
-    "price": 100,
+    "price": 85,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/17775856/3f7bb90b-0f60-4124-9fc1-8a845e2107ae",
     "location": "Silkeborg",
-    "added": "18.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/17775856"
   },
   {
@@ -6665,7 +6692,7 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16508912/e07f0663-a200-4eb2-bb86-94a400edda87",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/16508912"
   },
   {
@@ -7313,25 +7340,25 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16199608/529958bb-713d-40ba-9bdb-06916e0b6d12",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16199608"
   },
   {
     "id": "16199481",
     "title": "Kan man træde på en vandmand",
-    "price": 25,
+    "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16199481/31f21380-2fdd-46b4-b909-1b6ad29bff06",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16199481"
   },
   {
     "id": "16199430",
     "title": "Udviklingsastrologi - Principper for en flerdimensionel horoskoptydning",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16199430/15b764d7-2206-4c00-959e-e9fd20026845",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16199430"
   },
   {
@@ -7340,7 +7367,7 @@
     "price": 75,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16199319/4a2f6359-bb79-438a-adb8-900a63993f31",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16199319"
   },
   {
@@ -7349,7 +7376,7 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16188573/4ce1f2b0-e6be-42ee-b15a-08abf57d1993",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16188573"
   },
   {
@@ -7358,7 +7385,7 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16188445/49fe3af0-f17b-48ec-8459-e855c0d5da7e",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16188445"
   },
   {
@@ -7367,34 +7394,34 @@
     "price": 30,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16188332/56f7b46b-d875-40bb-917a-ab6cda2fce35",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16188332"
   },
   {
     "id": "16186914",
     "title": "Vælg den rigtige hund",
-    "price": 35,
+    "price": 30,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16186914/04c45a03-2363-442f-a6f7-e8dfa6871995",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16186914"
   },
   {
     "id": "16159336",
     "title": "Lær at tegne trin for trin",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16159336/9a5a7d96-13eb-462f-96ac-8611d7574881",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/16159336"
   },
   {
     "id": "16159294",
     "title": "Dansk Kunst under hammeren - Årbog 1985",
-    "price": 20,
+    "price": 15,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16159294/d0f816b8-22ce-4250-a71e-f40177827fe4",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/16159294"
   },
   {
@@ -7403,7 +7430,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16159263/c07c948a-da6d-443b-a95b-b18072057c1e",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/16159263"
   },
   {
@@ -7412,16 +7439,16 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16159194/483b2abf-0460-4102-bbfb-69e051b676f3",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16159194"
   },
   {
     "id": "16158022",
     "title": "Gads store fluefiskehåndbog",
-    "price": 69,
+    "price": 60,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16158022/c62ada36-ec56-4f7d-ab37-a02ae0176dca",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16158022"
   },
   {
@@ -7430,34 +7457,34 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16157950/f8e074d1-5ef6-4b18-be67-4212db5f4ee5",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/16157950"
   },
   {
     "id": "16130000",
     "title": "Politikens Lær at spå",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16130000/5a0111be-c665-4be0-84d1-debba58ffe62",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16130000"
   },
   {
     "id": "16129938",
     "title": "Politikens Ferskvandsfiskeri fra hele verden",
-    "price": 30,
+    "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16129938/9a817628-8c6b-43ba-9856-a390b73472a4",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16129938"
   },
   {
     "id": "16129869",
     "title": "Børn der er anderledes - Hjernes betydning for barnets udvikling",
-    "price": 15,
+    "price": 10,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16129869/5d5682de-b421-44ab-947f-4a3ed6e2c8ec",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16129869"
   },
   {
@@ -7466,7 +7493,7 @@
     "price": 80,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16129810/ee07c55f-7cc0-49a3-b4ca-b75993ba1b1d",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16129810"
   },
   {
@@ -7475,43 +7502,43 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16129544/39cbf593-53e4-4e46-98d6-7db3b5fce451",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16129544"
   },
   {
     "id": "16129374",
     "title": "Kalligrafi - Det Kreative Værksted",
-    "price": 60,
+    "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16129374/ed8edc31-85c4-43c4-a549-da12759d3d21",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16129374"
   },
   {
     "id": "16129305",
     "title": "Småsløyd",
-    "price": 25,
+    "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16129305/37693ee0-9532-40e8-a69f-7164ac0e4eec",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16129305"
   },
   {
     "id": "16129058",
     "title": "Bibelen - det er: den ganske hellige skrifts bøger (1902)",
-    "price": 225,
+    "price": 200,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16129058/7da33006-c7eb-4d75-bfa8-9b89463ee373",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16129058"
   },
   {
     "id": "16128844",
     "title": "Politikens Svampebog",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16128844/1ca23996-8abb-4872-ba39-c3eae9222c61",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16128844"
   },
   {
@@ -7520,16 +7547,16 @@
     "price": 75,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16128798/72865283-ff49-439a-beb2-e43ee30cda8e",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16128798"
   },
   {
     "id": "16128740",
     "title": "Syltning og Kræs",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16128740/5004e17b-1502-4d33-8b57-26e4049d5617",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/16128740"
   },
   {
@@ -7547,34 +7574,34 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16081044/19103c92-419c-42ca-bb70-192b01cd31c1",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/16081044"
   },
   {
     "id": "16081029",
     "title": "Bryd vanen og nå dine mål",
-    "price": 20,
+    "price": 15,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16081029/9d8cec08-9efc-47b5-a292-9b16ff829aba",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/16081029"
   },
   {
     "id": "16080905",
     "title": "Lær at spille guitar",
-    "price": 150,
+    "price": 125,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16080905/fed2271c-f39b-4512-9a9d-f052e35e8a04",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/16080905"
   },
   {
     "id": "16080904",
     "title": "Galerie Moderne Silkeborg - Påske Udstillinger",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16080904/2d37b3ee-03b3-48cf-b335-e8c09d99a355",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/16080904"
   },
   {
@@ -7583,7 +7610,7 @@
     "price": 30,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16013775/680f9680-419f-4e90-99d3-5d5567b5d82f",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "16.5.2026",
     "dbaLink": "https://www.dba.dk/16013775"
   },
   {
@@ -7592,8 +7619,215 @@
     "price": 69,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/16013699/67cc79b7-45c2-4d21-ba52-3dc70844e51e",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "16.5.2026",
     "dbaLink": "https://www.dba.dk/16013699"
+  },
+  {
+    "id": "15997669",
+    "title": "Jeg er jæger - Håndbog i jagt",
+    "price": 25,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15997669/4e037c13-4466-4266-b1e1-7ed50f4e23ce",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15997669"
+  },
+  {
+    "id": "15997312",
+    "title": "Politikens Havebog",
+    "price": 40,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15997312/c6cbf0fd-2dc6-44ad-9b43-4f89a6cb0685",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15997312"
+  },
+  {
+    "id": "15997195",
+    "title": "Verdens Bedste Bog",
+    "price": 40,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15997195/37eefa06-e1b8-49dc-81f2-da9ce475693a",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15997195"
+  },
+  {
+    "id": "15997090",
+    "title": "Træer - Sesams naturbøger",
+    "price": 25,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15997090/ab807995-2529-4f99-b622-2beb7720db30",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15997090"
+  },
+  {
+    "id": "15996656",
+    "title": "Vejen til den tvungne jagtprøve",
+    "price": 30,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15996656/3b3683fe-a209-41ac-a12b-c8e6265c70a2",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15996656"
+  },
+  {
+    "id": "15996414",
+    "title": "Danmarks 7 Vidundere",
+    "price": 100,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15996414/5ef27eed-6d49-4377-a2e0-20a7e3ceccd5",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15996414"
+  },
+  {
+    "id": "15996338",
+    "title": "Massage for to",
+    "price": 15,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15996338/631943c5-811d-436e-82af-dfddeafd8938",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15996338"
+  },
+  {
+    "id": "15996247",
+    "title": "Hvad skovsøen gemte",
+    "price": 120,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15996247/a0ebd659-2804-4eab-804c-a369f082e2d5",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15996247"
+  },
+  {
+    "id": "15996150",
+    "title": "Tillykke med Hunden",
+    "price": 60,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15996150/8a12d191-1173-452e-af99-6a608c5d9af3",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15996150"
+  },
+  {
+    "id": "15988600",
+    "title": "Havens og skovens fulge",
+    "price": 30,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15988600/a2dcd999-86bb-4fc1-b377-567efd52a0ac",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15988600"
+  },
+  {
+    "id": "15988565",
+    "title": "Uperfekt - Sundhed der virker i hverdagen",
+    "price": 35,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15988565/9d068af7-b26b-4e91-8bdd-b137a01915aa",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15988565"
+  },
+  {
+    "id": "15988481",
+    "title": "Silkeborg 1845-1982 - en by i billeder",
+    "price": 65,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15988481/41cf94db-a252-48e5-a5e7-9a21a878b7fc",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15988481"
+  },
+  {
+    "id": "15988397",
+    "title": "Evangelisk-christelig Psalmebog - til brug ved Kirke og Huus-Andagt",
+    "price": 800,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15988397/c71be5b8-002c-4245-b82f-097c02da9ebc",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15988397"
+  },
+  {
+    "id": "15988276",
+    "title": "Vor Herres og Frelsers Jesu Christi Nye Testament,",
+    "price": 85,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15988276/47509b9c-9fc6-4ec1-a615-da2ce3321bd5",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15988276"
+  },
+  {
+    "id": "15988167",
+    "title": "Philips AAC Language System – English IV – komplet kassetteboks",
+    "price": 350,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15988167/6de31740-2862-46b9-84ff-49a3d0ab97d9",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15988167"
+  },
+  {
+    "id": "15988124",
+    "title": "Dansk skoleordbog - Retskrivnings- og fremmedordbog",
+    "price": 50,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15988124/2b6d3195-f497-47ad-93fa-9b8616cb4699",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15988124"
+  },
+  {
+    "id": "15988014",
+    "title": "Det er mig eller hunden",
+    "price": 25,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15988014/abe2db22-ed7a-4223-90dc-7f513b95e1c7",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15988014"
+  },
+  {
+    "id": "15987876",
+    "title": "Fra fræk til flink hund",
+    "price": 40,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15987876/487e59e6-0182-4a1a-a772-48cf98156c22",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15987876"
+  },
+  {
+    "id": "15987813",
+    "title": "Pilates - Effektiv fitness træning til hjemmet",
+    "price": 20,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15987813/ee96cf12-fdb7-48ff-91bb-e2f73a207456",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15987813"
+  },
+  {
+    "id": "15987800",
+    "title": "Guldsnore på sporet",
+    "price": 35,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15987800/4e5afd36-c873-4432-b949-d476e1d8a6af",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15987800"
+  },
+  {
+    "id": "15987788",
+    "title": "Savonlina",
+    "price": 50,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15987788/677a0354-6e84-4dbb-adfd-900a13229fa2",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15987788"
+  },
+  {
+    "id": "15987758",
+    "title": "Spis dig til et stærkt imunforsvar",
+    "price": 60,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15987758/65e07ebe-b3df-4570-acf8-a378a1995755",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15987758"
+  },
+  {
+    "id": "15987678",
+    "title": "Petite Super International legetøjs-skrivemaskine",
+    "price": 250,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/15987678/85e95d00-6586-42f1-b051-cd810c587d74",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/15987678"
   },
   {
     "id": "15940347",
@@ -7601,7 +7835,7 @@
     "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/15940347/37f97a6c-13ed-4df0-a355-254172fbbf89",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/15940347"
   },
   {
@@ -7610,7 +7844,7 @@
     "price": 30,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/15940073/e4fcec04-09b7-4612-8089-30680c8d2c70",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/15940073"
   },
   {
@@ -7619,7 +7853,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/15940029/d95b546c-cad7-403f-b223-8b2aad86ee14",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/15940029"
   },
   {
@@ -9243,15 +9477,6 @@
     "dbaLink": "https://www.dba.dk/14852335"
   },
   {
-    "id": "14852322",
-    "title": "En Vesthimmerlandsk Bondeslægt - Slægten Bro med sidelinjer",
-    "price": 299,
-    "image": "https://images.dbastatic.dk/dynamic/480w/item/14852322/ebd8f41d-0dd4-4687-9c28-18a9093b0dba",
-    "location": "Silkeborg",
-    "added": "10.4.2026",
-    "dbaLink": "https://www.dba.dk/14852322"
-  },
-  {
     "id": "14840973",
     "title": "Grundbog i Patchwork",
     "price": 80,
@@ -9939,7 +10164,7 @@
     "id": "14318277",
     "title": "Baby - 100% uden tilsætningsstoffer",
     "price": 30,
-    "image": "https://images.dbastatic.dk/dynamic/480w/item/14318277/8944bbf6-7d95-4992-b621-8e5b1457e305",
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/14318277/ce4e54b3-e99f-4f79-af1d-4ab87a210655",
     "location": "Silkeborg",
     "added": "24.3.2026",
     "dbaLink": "https://www.dba.dk/14318277"
@@ -9947,10 +10172,10 @@
   {
     "id": "14266987",
     "title": "Ansigtsmaling - Skræk, skæg og magi",
-    "price": 30,
+    "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14266987/c67d019a-e2b3-48ca-94ea-33717b2beed3",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/14266987"
   },
   {
@@ -9959,7 +10184,7 @@
     "price": 30,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14255427/eb10ce0f-d34c-4515-b07d-82651f45f346",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/14255427"
   },
   {
@@ -9968,7 +10193,7 @@
     "price": 222,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14254993/bf17ab8d-df6d-4586-a254-84e63c1d5629",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14254993"
   },
   {
@@ -9977,7 +10202,7 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14254888/69f64dcb-2fa6-404a-a64b-8b0b16fa8b77",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14254888"
   },
   {
@@ -9986,16 +10211,16 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14254605/662f46eb-0cf6-4cfb-b3bc-82445f54e879",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14254605"
   },
   {
     "id": "14254182",
     "title": "Politiken Historie - Danmark i Kina",
-    "price": 20,
+    "price": 15,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14254182/83e9a7ff-4917-4578-adf4-56dbbd4537f1",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14254182"
   },
   {
@@ -10004,16 +10229,16 @@
     "price": 69,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14254077/910cb01e-054a-419d-9995-ec2c791e4d62",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14254077"
   },
   {
     "id": "14224680",
     "title": "Samlingens Vogter 1+2",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14224680/42b5c0e9-c57a-4829-b06f-91703baf94b0",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14224680"
   },
   {
@@ -10022,7 +10247,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14221373/48fc406e-1c84-4f30-a20d-129ab1f04ab6",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14221373"
   },
   {
@@ -10031,16 +10256,16 @@
     "price": 69,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14221151/35c52504-edb0-4125-8211-1feb73b67f22",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14221151"
   },
   {
     "id": "14216744",
     "title": "Oplev det gode liv nu! - Lær at bruge bekræftelser",
-    "price": 44,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14216744/eb492de1-f36e-4346-a081-74f6e7fdbcd0",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14216744"
   },
   {
@@ -10049,7 +10274,7 @@
     "price": 100,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14216631/24e2348e-4548-4351-9237-a7167555b289",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14216631"
   },
   {
@@ -10058,16 +10283,16 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14216314/b048e901-8e2b-4cbe-9d31-169129b4224b",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14216314"
   },
   {
     "id": "14216276",
     "title": "Fluebinderens Abc",
-    "price": 30,
+    "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14216276/0ebd1ac1-6ffe-45a6-9c83-8769201d4186",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14216276"
   },
   {
@@ -10076,16 +10301,16 @@
     "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14216226/909509f1-4627-40fd-b792-41a0e0949752",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14216226"
   },
   {
     "id": "14216051",
     "title": "Techniques & Principles\nin Language\nTeaching",
-    "price": 88,
+    "price": 75,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14216051/8a4e6215-a697-40ad-9469-c48b39de90a1",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14216051"
   },
   {
@@ -10094,7 +10319,7 @@
     "price": 125,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14216010/0e8e82dd-f1c4-48f7-a11d-a09d8e0f5754",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14216010"
   },
   {
@@ -10103,7 +10328,7 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14216009/c99963ab-22fe-414b-ba1f-23fa91800a3d",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14216009"
   },
   {
@@ -10112,7 +10337,7 @@
     "price": 250,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14215674/7344b94e-e871-430c-b333-437575d8cc25",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14215674"
   },
   {
@@ -10121,7 +10346,7 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14215584/c60280df-26eb-44b4-992b-76650d843299",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14215584"
   },
   {
@@ -10130,7 +10355,7 @@
     "price": 35,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14215422/80ae975e-4a6d-4011-be56-496bc52d6623",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14215422"
   },
   {
@@ -10139,7 +10364,7 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14215372/242ed493-7c48-41a6-beb3-51d2f6e5d3bb",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14215372"
   },
   {
@@ -10148,25 +10373,25 @@
     "price": 175,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14215269/9a1c7332-fb75-4945-ac6a-d86146b30234",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14215269"
   },
   {
     "id": "14215148",
     "title": "Data Structures & Algorithms in Java - International Student Version",
-    "price": 40,
+    "price": 30,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14215148/8c56af2a-d33e-4fd1-b436-48482f122be1",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14215148"
   },
   {
     "id": "14215087",
     "title": "Dansk Sprog - En grundbog",
-    "price": 25,
+    "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14215087/96602eee-ef5a-4c87-adf9-33e4015b1cb9",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14215087"
   },
   {
@@ -10175,7 +10400,7 @@
     "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14213224/5f70d9ce-14f5-45a4-a568-0b8698132986",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14213224"
   },
   {
@@ -10184,7 +10409,7 @@
     "price": 175,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14212583/5b53afb0-365b-44f1-9cb7-4e881da18650",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14212583"
   },
   {
@@ -10193,25 +10418,25 @@
     "price": 60,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14212433/67bb841e-f668-4aa1-a745-c28e592f47fe",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14212433"
   },
   {
     "id": "14212227",
-    "title": "75 år på Kildebakken Silkeborg Centralhospital",
+    "title": "75 år på Kildebakken - Silkeborg Centralsygehus",
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14212227/b75be026-475f-4e5c-9186-6a0e94341108",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14212227"
   },
   {
     "id": "14212180",
     "title": "Den Store Jagtbog 1+2",
-    "price": 85,
+    "price": 75,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14212180/4174877b-50bd-446b-8497-523552a6e078",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14212180"
   },
   {
@@ -10220,34 +10445,34 @@
     "price": 125,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14211873/357dca4e-a496-45b6-a08a-ee912edc5a20",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14211873"
   },
   {
     "id": "14211688",
     "title": "Netter's Atlas of Human Neuroscience",
-    "price": 69,
+    "price": 60,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14211688/45de99d6-4af0-414f-92a5-ebdbcb929881",
     "location": "Silkeborg",
-    "added": "20.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14211688"
   },
   {
     "id": "14204699",
     "title": "Harry Potter og Flammernes Pokal",
-    "price": 30,
+    "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14204699/c5c7001a-7d63-4db4-ab77-adca114aa2ec",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/14204699"
   },
   {
     "id": "14166480",
     "title": "Danmarkshistorien 1-4",
-    "price": 40,
+    "price": 35,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14166480/3a75ce0d-f777-466f-8b8d-35bad1aa3c58",
     "location": "Silkeborg",
-    "added": "18.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14166480"
   },
   {
@@ -10256,7 +10481,7 @@
     "price": 55,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14166080/74090544-9183-4ab1-8935-b21d4d81958f",
     "location": "Silkeborg",
-    "added": "18.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14166080"
   },
   {
@@ -10265,7 +10490,7 @@
     "price": 55,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14165991/80c18a24-b0a4-4ef6-b2fc-d2aaa84cf668",
     "location": "Silkeborg",
-    "added": "18.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14165991"
   },
   {
@@ -10274,16 +10499,16 @@
     "price": 69,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14165881/82e1921c-551a-4c5b-9bdf-46a3c070e301",
     "location": "Silkeborg",
-    "added": "18.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14165881"
   },
   {
     "id": "14148389",
     "title": "Alt det nyeste indenfor landbrug havebrug og husholdning 1960-1961",
-    "price": 25,
+    "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14148389/a9508c40-e55f-4fb9-8f80-45fd97aa5fff",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14148389"
   },
   {
@@ -10292,7 +10517,7 @@
     "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14148309/24b99362-807e-405e-b6bc-96c499542aca",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14148309"
   },
   {
@@ -10301,34 +10526,34 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14148245/ca454602-366c-476e-a46c-a1bd7663c301",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14148245"
   },
   {
     "id": "14147949",
     "title": "Mere liv i kludene - sy, quilt og appliker",
-    "price": 15,
+    "price": 10,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14147949/71f8d870-7942-4a7c-988d-505edc35d58c",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14147949"
   },
   {
     "id": "14147886",
     "title": "Mærkedage - Årets højtider i kager",
-    "price": 30,
+    "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14147886/76b35978-5ff7-4aea-b645-e43531e78e07",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14147886"
   },
   {
     "id": "14147692",
     "title": "Tarzan 1-4",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14147692/c95b66fc-9d5c-411c-a979-afeaf158b812",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14147692"
   },
   {
@@ -10337,7 +10562,7 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14147387/64b04a5e-03a5-4d54-914f-c1d6f9a5ab98",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14147387"
   },
   {
@@ -10346,7 +10571,7 @@
     "price": 69,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14147199/44a2ba78-f5d8-4f3b-8735-97bb2673e3e5",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14147199"
   },
   {
@@ -10355,7 +10580,7 @@
     "price": 125,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14147117/09cfd6ae-4e68-4d4b-86b8-91eadaa29e3c",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14147117"
   },
   {
@@ -10364,7 +10589,7 @@
     "price": 125,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14142636/50471b4b-bf77-46b7-be30-7db4d268d90f",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14142636"
   },
   {
@@ -10373,16 +10598,16 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14142575/4f6fb7e4-41ee-44dc-8ac3-ab487bebd700",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14142575"
   },
   {
     "id": "14142458",
     "title": "Alice i Eventyrland & H. C. Andersen Eventyr",
-    "price": 40,
+    "price": 30,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14142458/542c6d6b-47e3-4a43-a699-a5371157dbcc",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14142458"
   },
   {
@@ -10391,7 +10616,7 @@
     "price": 250,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14122036/b1b563ee-d10d-44cf-a265-5ce90cc37bdf",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14122036"
   },
   {
@@ -10400,7 +10625,7 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14121862/8981a93c-5625-4db6-93b5-5c9a52a4ce0c",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14121862"
   },
   {
@@ -10409,7 +10634,7 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14121765/160d6015-34e7-4cfe-8b86-80d9bf5b19e7",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14121765"
   },
   {
@@ -10418,17 +10643,8 @@
     "price": 55,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14115118/9db7f2ba-5c91-47ae-9bfd-bfa307dba52b",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14115118"
-  },
-  {
-    "id": "14114944",
-    "title": "Køn, seksualitet & mangfoldighed",
-    "price": 40,
-    "image": "https://images.dbastatic.dk/dynamic/480w/item/14114944/da858ed3-ef0d-4028-8884-02f801c3d206",
-    "location": "Silkeborg",
-    "added": "17.3.2026",
-    "dbaLink": "https://www.dba.dk/14114944"
   },
   {
     "id": "14114762",
@@ -10436,16 +10652,16 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14114762/d91780cb-1b21-4e3a-b82d-25dca66247f1",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14114762"
   },
   {
     "id": "14114649",
     "title": "Hverdagsmeditation",
-    "price": 175,
+    "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14114649/62e65dae-1686-410e-9d0e-901add33ce39",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14114649"
   },
   {
@@ -10454,8 +10670,35 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14114453/a9c3a6a7-c9ac-40ab-ade8-001f8c82e88e",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/14114453"
+  },
+  {
+    "id": "14106274",
+    "title": "Barndomslandet",
+    "price": 250,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/14106274/07049d93-6dfe-4e73-847d-b983794a6462",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/14106274"
+  },
+  {
+    "id": "14094607",
+    "title": "Lev med dine følelser",
+    "price": 40,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/14094607/b4196935-1076-4d3e-a4fe-9e178688a708",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/14094607"
+  },
+  {
+    "id": "14094494",
+    "title": "Dyrenes Verden - Fugle I-III & Pattedyr I-II",
+    "price": 299,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/14094494/3e7e46c6-e479-454e-8727-392e37758e7d",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/14094494"
   },
   {
     "id": "14055617",
@@ -10463,7 +10706,7 @@
     "price": 10,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14055617/47fd0f1a-9f8b-4629-8cbc-c3efe95dbd3c",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/14055617"
   },
   {
@@ -10472,7 +10715,7 @@
     "price": 69,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14047809/f4ddb27a-5b31-4cdd-aa74-b8fbfb04b1ab",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/14047809"
   },
   {
@@ -10481,7 +10724,7 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14047444/a91fa1bc-19ad-4102-9c6b-06a3d155fae5",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/14047444"
   },
   {
@@ -10490,7 +10733,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/14045972/8cf11ec6-f48b-42ef-8876-2bea5ef1712a",
     "location": "Silkeborg",
-    "added": "I går",
+    "added": "14.5.2026",
     "dbaLink": "https://www.dba.dk/14045972"
   },
   {
@@ -11322,6 +11565,51 @@
     "dbaLink": "https://www.dba.dk/13162257"
   },
   {
+    "id": "12113010",
+    "title": "Danmark Dejligst - men hvor længe?",
+    "price": 30,
+    "image": "https://images.dbastatic.dk/dynamic/480w/4b/4bae5868-d9e0-4eb4-9e69-05e3dbee68e1",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/12113010"
+  },
+  {
+    "id": "12112994",
+    "title": "Poese + arbejdshæfte",
+    "price": 80,
+    "image": "https://images.dbastatic.dk/dynamic/480w/d3/d352411f-94a4-4216-aaba-9e93a0e716d5",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/12112994"
+  },
+  {
+    "id": "12112975",
+    "title": "Digtning der duer + lærervejledning",
+    "price": 75,
+    "image": "https://images.dbastatic.dk/dynamic/480w/4e/4ed9b3bd-6947-4ce2-a4f6-2b2a49d5c3ff",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/12112975"
+  },
+  {
+    "id": "12112958",
+    "title": "Hajtænder og himmelfærd",
+    "price": 30,
+    "image": "https://images.dbastatic.dk/dynamic/480w/14/146faea2-371a-4aa6-9030-6aff0d81bee9",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/12112958"
+  },
+  {
+    "id": "12112946",
+    "title": "Er det løgn hvad jeg siger?",
+    "price": 25,
+    "image": "https://images.dbastatic.dk/dynamic/480w/00/001fd216-a09b-42fd-91f6-3216fcdb51e4",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/12112946"
+  },
+  {
     "id": "12052539",
     "title": "... En mørk og stormfuld nat",
     "price": 15,
@@ -11549,10 +11837,10 @@
   {
     "id": "10225756",
     "title": "Befri Tanken",
-    "price": 75,
+    "price": 65,
     "image": "https://images.dbastatic.dk/dynamic/480w/9f/9f16d0cc-a964-45cf-be00-e5d868386d65",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/10225756"
   },
   {
@@ -11561,7 +11849,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/5f/5f80780b-7992-4cbd-9fb4-a4afac1c3cbb",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/10224321"
   },
   {
@@ -11570,16 +11858,16 @@
     "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/58/58d6c4fa-ad78-4268-a398-95a7124b12c1",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/10220973"
   },
   {
     "id": "10220972",
     "title": "Kunsthåndværket Temari",
-    "price": 30,
+    "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/08/085451ea-105e-4258-98ff-9ad4190cc7cc",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/10220972"
   },
   {
@@ -11588,16 +11876,16 @@
     "price": 150,
     "image": "https://images.dbastatic.dk/dynamic/480w/d5/d5ad7d90-aa78-4858-8175-8bcbe647e452",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/10220952"
   },
   {
     "id": "10199104",
     "title": "Personlig Stil - Mellem Kitsch og Klassisk",
-    "price": 25,
+    "price": 20,
     "image": "https://images.dbastatic.dk/dynamic/480w/b8/b81f8e80-83be-453f-b14a-54ab52cea145",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/10199104"
   },
   {
@@ -11615,16 +11903,16 @@
     "price": 88,
     "image": "https://images.dbastatic.dk/dynamic/480w/0f/0f3da5b6-6c40-41f9-bb1a-c9c5bdfb1a13",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/10198849"
   },
   {
     "id": "10198267",
     "title": "Trælegetøj",
-    "price": 35,
+    "price": 30,
     "image": "https://images.dbastatic.dk/dynamic/480w/33/33e2e411-b1be-4286-8073-de93603eacf9",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/10198267"
   },
   {
@@ -11633,16 +11921,16 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/e6/e6482949-b34c-42a2-8139-5e20bb3129af",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/10198140"
   },
   {
     "id": "10198082",
     "title": "Stereogrammer - En verden i 3D & Ind i kunsten",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/57/57f54d78-4d59-4c28-b2c7-1f6ff334682a",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/10198082"
   },
   {
@@ -11651,7 +11939,7 @@
     "price": 55,
     "image": "https://images.dbastatic.dk/dynamic/480w/a1/a1065fdc-34d3-48c1-9f64-fd49df2ce225",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/10197769"
   },
   {
@@ -11666,10 +11954,10 @@
   {
     "id": "10037244",
     "title": "Handmade Shoes for Men",
-    "price": 85,
+    "price": 75,
     "image": "https://images.dbastatic.dk/dynamic/480w/cb/cbd3c7f4-3c73-4651-87d4-5f9e344b3250",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/10037244"
   },
   {
@@ -11678,16 +11966,16 @@
     "price": 75,
     "image": "https://images.dbastatic.dk/dynamic/480w/bb/bb82aaba-03cb-422c-927d-595847ac40c5",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/10036126"
   },
   {
     "id": "10036054",
     "title": "Lev sundt med vitaminer og mineraler",
-    "price": 20,
+    "price": 15,
     "image": "https://images.dbastatic.dk/dynamic/480w/c2/c27b2938-97ec-425f-8127-2623429e5e16",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/10036054"
   },
   {
@@ -11696,7 +11984,7 @@
     "price": 30,
     "image": "https://images.dbastatic.dk/dynamic/480w/d7/d742480a-24af-41a4-ba62-e6bacb517eec",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/10036017"
   },
   {
@@ -11705,70 +11993,61 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/1b/1b12f8cc-9475-4022-a321-a3c9ff2c5f6e",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/9993892"
   },
   {
     "id": "9993862",
     "title": "Fødsel og smerte",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/a5/a5f4db74-482a-462b-841e-e26855c82214",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/9993862"
   },
   {
     "id": "9993748",
     "title": "Fluefiskerens håndbog",
-    "price": 85,
+    "price": 75,
     "image": "https://images.dbastatic.dk/dynamic/480w/a0/a04c7f96-f182-4347-989c-d30ad28f7a6b",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/9993748"
   },
   {
     "id": "9993701",
     "title": "Imitationer - Nymfer, tørfluer, kystfluer og geddefluer",
-    "price": 100,
+    "price": 85,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/9993701/a1569055-aab2-464b-90dd-06748c962815",
     "location": "Silkeborg",
-    "added": "19.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/9993701"
   },
   {
     "id": "9993592",
     "title": "Lystfiskeri ved kyst og hav",
-    "price": 20,
+    "price": 15,
     "image": "https://images.dbastatic.dk/dynamic/480w/76/76294157-6ce4-46d3-9653-277e1258ed21",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/9993592"
   },
   {
     "id": "9993474",
     "title": "Gyldendals bog om fluefiskeri efter ørred",
-    "price": 40,
+    "price": 35,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/9993474/24b7017e-855f-4a30-afa5-488e5f0d640f",
     "location": "Silkeborg",
-    "added": "22.3.2026",
+    "added": "I går",
     "dbaLink": "https://www.dba.dk/9993474"
-  },
-  {
-    "id": "9993431",
-    "title": "Alt om Lystfiskeri",
-    "price": 15,
-    "image": "https://images.dbastatic.dk/dynamic/480w/39/39e0fa74-843a-4c5d-abbc-b081c80bb503",
-    "location": "Silkeborg",
-    "added": "17.3.2026",
-    "dbaLink": "https://www.dba.dk/9993431"
   },
   {
     "id": "9993401",
     "title": "Gads Store Bog om Spinnefiskeri",
-    "price": 15,
+    "price": 10,
     "image": "https://images.dbastatic.dk/dynamic/480w/17/17740a8e-f0cd-44a5-9e78-9b8e3855ce3f",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/9993401"
   },
   {
@@ -11783,10 +12062,10 @@
   {
     "id": "9993294",
     "title": "Krukker og Højbede",
-    "price": 40,
+    "price": 35,
     "image": "https://images.dbastatic.dk/dynamic/480w/ad/ad8c11d2-3c55-45ba-95b4-2833ce9972aa",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/9993294"
   },
   {
@@ -11795,16 +12074,16 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/a1/a182ed45-dcfe-4bf1-afec-2c050d8259bc",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/9993249"
   },
   {
     "id": "9975006",
     "title": "TI-82 Grafregner Brugsanvisning",
-    "price": 20,
+    "price": 10,
     "image": "https://images.dbastatic.dk/dynamic/480w/3f/3f187dcd-22b6-4d11-aec3-5237c5b8916e",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/9975006"
   },
   {
@@ -11894,7 +12173,7 @@
     "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/23/23d31d88-db7a-4885-a698-22c2ee1a9e37",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/9679563"
   },
   {
@@ -12049,15 +12328,6 @@
     "location": "Silkeborg",
     "added": "3.4.2026",
     "dbaLink": "https://www.dba.dk/8800370"
-  },
-  {
-    "id": "8773936",
-    "title": "Syng dig fri",
-    "price": 30,
-    "image": "https://images.dbastatic.dk/dynamic/480w/d0/d04a3ab4-9f55-48bc-bafe-3857c63332cf",
-    "location": "Silkeborg",
-    "added": "3.4.2026",
-    "dbaLink": "https://www.dba.dk/8773936"
   },
   {
     "id": "8773605",
@@ -12260,37 +12530,37 @@
   {
     "id": "8375269",
     "title": "De 20 mest betydningsfulde personer i Danmark",
-    "price": 15,
+    "price": 10,
     "image": "https://images.dbastatic.dk/dynamic/480w/a0/a0c92419-f501-49fb-9960-42244a525f86",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/8375269"
   },
   {
     "id": "8375233",
     "title": "I dette øjeblik",
-    "price": 15,
+    "price": 10,
     "image": "https://images.dbastatic.dk/dynamic/480w/e0/e06db4b6-3244-4fc1-9be8-b6f6049c675c",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/8375233"
   },
   {
     "id": "8375199",
     "title": "The Unofficial Complete Encyclopedia of Formula One",
-    "price": 50,
+    "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/de/dee56f2b-39a8-4ce6-b691-d0af85d126b5",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/8375199"
   },
   {
     "id": "8375129",
     "title": "HP 17bII+ Financial Calculator",
-    "price": 150,
+    "price": 125,
     "image": "https://images.dbastatic.dk/dynamic/480w/5f/5fe75308-b336-4b54-a767-154dd460bbbd",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/8375129"
   },
   {
@@ -12299,7 +12569,7 @@
     "price": 225,
     "image": "https://images.dbastatic.dk/dynamic/480w/0c/0c352132-88c6-480b-85fd-a4c7d81488cc",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/8338580"
   },
   {
@@ -12308,7 +12578,7 @@
     "price": 250,
     "image": "https://images.dbastatic.dk/dynamic/480w/9f/9f46c55d-090b-4cd6-bf9b-5e7170ca9631",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "17.5.2026",
     "dbaLink": "https://www.dba.dk/8338344"
   },
   {
@@ -12368,10 +12638,10 @@
   {
     "id": "8216779",
     "title": "Politikens Windsurferbog",
-    "price": 30,
+    "price": 25,
     "image": "https://images.dbastatic.dk/dynamic/480w/81/81df676e-a473-4050-94e4-6c41a5469a5a",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/8216779"
   },
   {
@@ -12771,6 +13041,15 @@
     "dbaLink": "https://www.dba.dk/8143272"
   },
   {
+    "id": "8143227",
+    "title": "50 projekter til din have",
+    "price": 15,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/8143227/f3d62110-a613-4f53-ae73-2e7383457358",
+    "location": "Silkeborg",
+    "added": "15.5.2026",
+    "dbaLink": "https://www.dba.dk/8143227"
+  },
+  {
     "id": "8143002",
     "title": "Adam Homo",
     "price": 25,
@@ -12845,10 +13124,10 @@
   {
     "id": "7982387",
     "title": "Zinzino Balanceolie",
-    "price": 85,
-    "image": "https://images.dbastatic.dk/dynamic/480w/a0/a04c7f96-f182-4347-989c-d30ad28f7a6b",
+    "price": 75,
+    "image": "https://images.dbastatic.dk/dynamic/480w/item/21483975/eb3da8d2-373d-480b-ba22-ce3cbd7343d8",
     "location": "Silkeborg",
-    "added": "17.3.2026",
+    "added": "18.5.2026",
     "dbaLink": "https://www.dba.dk/7982387"
   },
   {
@@ -12947,7 +13226,7 @@
     "price": 50,
     "image": "https://images.dbastatic.dk/dynamic/480w/item/7844124/ba83f851-8c45-4107-9a0a-d323543f5b4b",
     "location": "Silkeborg",
-    "added": "21.3.2026",
+    "added": "20.5.2026",
     "dbaLink": "https://www.dba.dk/7844124"
   },
   {
@@ -13871,10 +14150,10 @@
   {
     "id": "3499059",
     "title": "Where to drink beer",
-    "price": 40,
+    "price": 35,
     "image": "https://images.dbastatic.dk/dynamic/480w/2024/11/vertical-0/28/9/349/905/9_1b998e00-2733-4f8f-86d0-780eb2944201.jpg",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/3499059"
   },
   {
@@ -15003,15 +15282,6 @@
     "dbaLink": "https://www.dba.dk/2608827"
   },
   {
-    "id": "2603664",
-    "title": "James Taylor: Greatest Hits - Authentic Guitar-Tab Edition",
-    "price": 35,
-    "image": "https://images.dbastatic.dk/dynamic/480w/2024/11/vertical-0/28/4/260/366/4_354dd233-0fff-4ddd-8ee2-af3d2fb817a8.jpg",
-    "location": "Silkeborg",
-    "added": "5.4.2026",
-    "dbaLink": "https://www.dba.dk/2603664"
-  },
-  {
     "id": "2599951",
     "title": "København Universitets Almanak 2016",
     "price": 25,
@@ -15293,10 +15563,10 @@
   {
     "id": "2544107",
     "title": "Japanese Beauties",
-    "price": 69,
+    "price": 60,
     "image": "https://images.dbastatic.dk/dynamic/480w/2024/11/vertical-0/28/7/254/410/7_527e0eaa-ac7e-4a9e-8027-97d5574f7db9.jpg",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/2544107"
   },
   {
@@ -15586,15 +15856,6 @@
     "location": "Silkeborg",
     "added": "5.4.2026",
     "dbaLink": "https://www.dba.dk/2480461"
-  },
-  {
-    "id": "2480281",
-    "title": "Grand Theft Auto: San Andreas, PS2, action",
-    "price": 50,
-    "image": "https://images.dbastatic.dk/dynamic/480w/2024/11/vertical-0/28/1/248/028/1_b756d882-adea-4185-9be5-1f79ad2d7a15.jpg",
-    "location": "Silkeborg",
-    "added": "23.3.2026",
-    "dbaLink": "https://www.dba.dk/2480281"
   },
   {
     "id": "2478726",
@@ -17298,15 +17559,6 @@
     "dbaLink": "https://www.dba.dk/2210805"
   },
   {
-    "id": "2192454",
-    "title": "Gør det selv bøger",
-    "price": 30,
-    "image": "https://images.dbastatic.dk/dynamic/480w/2024/11/vertical-0/27/4/219/245/4_797f23fa-4f47-4f0c-882c-3b3ea5940c95.jpg",
-    "location": "Silkeborg",
-    "added": "23.3.2026",
-    "dbaLink": "https://www.dba.dk/2192454"
-  },
-  {
     "id": "2099693",
     "title": "Digital media management - en helhedsorienteret metode",
     "price": 30,
@@ -18077,7 +18329,7 @@
     "price": 40,
     "image": "https://images.dbastatic.dk/dynamic/480w/2024/11/vertical-0/20/2/405/112_6518d69b-1f61-414a-b686-41f4f18fe281.jpg",
     "location": "Silkeborg",
-    "added": "23.3.2026",
+    "added": "I dag",
     "dbaLink": "https://www.dba.dk/405112"
   },
   {
