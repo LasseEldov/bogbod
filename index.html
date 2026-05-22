@@ -909,7 +909,9 @@
   // Tilføj her hvis du finder en bog i den forkerte kategori.
   // Format: emne-nøgle -> liste af ID'er der skal udelukkes fra netop det emne.
   const EMNE_BLACKLIST = {
-    // "musik": ["20084184"],   // eksempel: Lademanns Børneleksikon hører ikke til Musik
+    "biografi": ["16459583", "2367272"],
+    "kunst":    ["20084184", "18128527", "15787365", "9679563", "2626823", "2464735", "2216343"],
+    "musik":    ["20084184"]
   };
 
   // Build a fast lookup: id -> Set of emne-keys (respecting blacklist)
