@@ -114,6 +114,44 @@
     text-align: right;
   }
 
+  .dba-rating {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 0.55rem;
+    text-decoration: none;
+    color: var(--brown);
+    transition: opacity 0.2s;
+  }
+  .dba-rating:hover { opacity: 0.75; }
+  .dba-rating-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px;
+    height: 30px;
+    padding: 0 0.5rem;
+    background: var(--brown);
+    color: var(--cream);
+    border-radius: 5px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0;
+  }
+  .dba-rating-text {
+    font-family: 'Fraunces', serif;
+    font-size: 0.78rem;
+    line-height: 1.15;
+    color: var(--brown-soft);
+    text-align: left;
+    white-space: nowrap;
+  }
+  .dba-rating-text strong {
+    display: block;
+    color: var(--brown);
+    font-weight: 600;
+  }
+
   /* HERO */
   .hero {
     padding: 4.5rem 5vw 3rem;
@@ -647,6 +685,10 @@
       <span class="brand-text">Bogbod</span>
     </a>
     <div class="tagline">— en privat samling, omhyggeligt udvalgt</div>
+    <a id="dba-rating" class="dba-rating" href="https://www.dba.dk/profile/ads?userId=179812969" target="_blank" rel="noopener" style="display:none;" aria-label="Se DBA-profil">
+      <span class="dba-rating-badge"></span>
+      <span class="dba-rating-text"></span>
+    </a>
   </div>
 </header>
 
@@ -684,7 +726,9 @@
     <option value="religion">Religion</option>
     <option value="silkeborg">Silkeborg-bøger</option>
     <option value="skonlitteratur">Skønlitteratur</option>
+    <option value="spiritualitet_selvudvikling">Spiritualitet og selvudvikling</option>
     <option value="studieboger">Studiebøger</option>
+    <option value="sundhed_helse">Sundhed og helse</option>
     <option value="tegneserier_manga">Tegneserier og Manga</option>
   </select>
   <select class="sort-select" id="sort">
@@ -896,7 +940,9 @@
     "have_blomster_planter": ["19741746","19698862","769259","19940516","19673322","19669420","14213224","1228803","2553463","2241667","15847412","20979507","20979508","20902270","7910348","1033304","9993294","8162999","2246594","7765387","3501348","13716304","14148389","8143272"],
     "borne_ungdom": ["19673333","19669414","14148309","16251249","16222671","19518382","10036126","14254077","19548550","19272287","13915234","14147387","14224680","19299500","15850841","21231716","14336768","17627889","14106274","13687741","20902271","17422495","13953440","15584265","20902248","20902264","14142458","2584561","17297464","19272295","20902270","20475755","16976250","20855330","20838440","20468816","16794756","20475766","20603580","16580944","20838434","2358750","13231530","14569122","14573769","14567853","18069702","16625627","14573686","16268716","20468838","14386427"],
     "tegneserier_manga": ["8247954","14114453","15536930","13907652","13656335","14147692","17423824","13732760","17456400","2498430","15356592","15356368","15355493","15536976","15438023","15215971","15356097","936290","15355723","15356524","14974284","15356208","14767783","20084190","16756644","8755135","2439634","18244406","79881","5491014","2480461","2590138"],
-    "skonlitteratur": ["19732592","14204699","17806156","17806024","21284815","12051958","12052120","15850704","13948866","13953134","8180807","19669422","8181224","12052010","12112946","8180768","8143002","21078215","21078224","15656578","8051146","7998165","15787450","8051154","15497870","17627018","8051125","13953135","15584301","2389952","21078217","21078218","13904113","8051064","15645769","15787665","7766103","20979516","15497790","20902240","15580508","15639396","5427248","7765656","7766275","3499992","2404570","17368753","13948070","7770702","20902247","7764671","7765175","3502099","17047558","15193484","20902244","257903","15438265","724190","14974112","7765090","16975639","20468819","13948865","20837176","2351167","2263619","14854753","14854476","739011","20475763","15122716","2307839","2398951","20286520","20286526","20285011","20285014","20285016","20285018","20246764","20246767","20246769","20246775","20186743","14854529","14852335","14853889","2965601","2485796","14976904","8162909","13175621","20468835","20286512","20286518","17110181","20246771","14854931","14854410","16581479","6029562","2499228","2318494","20052479","7770859","16581367","16581310","14493779","8800471","20902241","14568148","18070018","18070107","20053412","18503117","14853326","2543303","16603216","2526511","5769361","2499052","16581425","5997043","20148479","20286508","20286509","16487448","20053406","18070192","18070199","16457822","16581099","20468836","16254411","16404508","20148497","16532286","8766467","7770335","14568737","9426222","16263732","17806373","16581188","14568332","18336260","7767387","20603579","7766793"]
+    "skonlitteratur": ["19732592","14204699","17806156","17806024","21284815","12051958","12052120","15850704","13948866","13953134","8180807","19669422","8181224","12052010","12112946","8180768","8143002","21078215","21078224","15656578","8051146","7998165","15787450","8051154","15497870","17627018","8051125","13953135","15584301","2389952","21078217","21078218","13904113","8051064","15645769","15787665","7766103","20979516","15497790","20902240","15580508","15639396","5427248","7765656","7766275","3499992","2404570","17368753","13948070","7770702","20902247","7764671","7765175","3502099","17047558","15193484","20902244","257903","15438265","724190","14974112","7765090","16975639","20468819","13948865","20837176","2351167","2263619","14854753","14854476","739011","20475763","15122716","2307839","2398951","20286520","20286526","20285011","20285014","20285016","20285018","20246764","20246767","20246769","20246775","20186743","14854529","14852335","14853889","2965601","2485796","14976904","8162909","13175621","20468835","20286512","20286518","17110181","20246771","14854931","14854410","16581479","6029562","2499228","2318494","20052479","7770859","16581367","16581310","14493779","8800471","20902241","14568148","18070018","18070107","20053412","18503117","14853326","2543303","16603216","2526511","5769361","2499052","16581425","5997043","20148479","20286508","20286509","16487448","20053406","18070192","18070199","16457822","16581099","20468836","16254411","16404508","20148497","16532286","8766467","7770335","14568737","9426222","16263732","17806373","16581188","14568332","18336260","7767387","20603579","7766793"],
+    "spiritualitet_selvudvikling": ["18128527","16221504","10225756","19673319","14337336","19732574","19732572","2620378","2418653","2578975","2244524","2593189","2584682","20219915","2328466","2212505","2906509","5491494","2537579"],
+    "sundhed_helse": ["15988565","8168583","13667287","5475635","1186976","2712433","5695709","18065434","18060403","19262252","7852910","2761671","2769387","18244679","20052263","8180608","10036054","2226121","20475741","917288","5491071","14386928","14318277","921006","2567421","2401718","2389815","21284813","8180500","2589986","20979493","9426032","2619801","20845292","2627661","20603570","14840805","14974188","2401917","18502698","20475751","2392148","14908607"]
   };
   const EMNE_LABELS = {
     "fiskeri": "Fiskeri",
@@ -916,7 +962,9 @@
     "have_blomster_planter": "Have, Blomster og Planter",
     "borne_ungdom": "Børne- og ungdomsbøger",
     "tegneserier_manga": "Tegneserier og Manga",
-    "skonlitteratur": "Skønlitteratur"
+    "skonlitteratur": "Skønlitteratur",
+    "spiritualitet_selvudvikling": "Spiritualitet og selvudvikling",
+    "sundhed_helse": "Sundhed og helse"
   };
 
   // EMNE_BLACKLIST: ID'er der eksplicit IKKE skal være i et givet emne,
@@ -926,7 +974,8 @@
   const EMNE_BLACKLIST = {
     "biografi": ["16459583", "2367272"],
     "kunst":    ["20084184", "18128527", "15787365", "9679563", "2626823", "2464735", "2216343"],
-    "musik":    ["20084184"]
+    "musik":    ["20084184"],
+    "sundhed_helse": ["14840805", "14974188", "2401917"]
   };
 
   // Build a fast lookup: id -> Set of emne-keys (respecting blacklist)
@@ -947,20 +996,35 @@
 
   // ===== STATE =====
   let books = [];
-  let activeEmne = 'alle'; // 'alle' = ingen emne-filtrering
+  let activeCategory = 'boger'; // 'boger' | 'andet' | 'alle'  (standard: kun bøger)
+  let activeEmne = 'alle';      // 'alle' = ingen emne-filtrering
   let searchTerm = '';
   let sortBy = 'newest';
   let currentPage = 1;
-  let activeCategory = 'boger'; // 'boger' | 'andet' | 'alle'  (standard: kun bøger)
+  let dbaRating = null;         // fx "9,9"
+  let dbaRatingCount = null;    // fx 175
   const PER_PAGE = 80;
 
   // ===== INIT =====
   async function init() {
-    // Try to load real data from books.json
+    // Try to load real data from books.json. Supports both formats:
+    //   New: { rating, ratingCount, books: [...] }
+    //   Old: [ ... ]  (plain array — backwards compatible)
     try {
       const res = await fetch('books.json', { cache: 'no-cache' });
       if (res.ok) {
-        books = await res.json();
+        const data = await res.json();
+        if (Array.isArray(data)) {
+          // Old format: just an array of books
+          books = data;
+        } else if (data && Array.isArray(data.books)) {
+          // New format: wrapper object
+          books = data.books;
+          if (data.rating) dbaRating = data.rating;
+          if (typeof data.ratingCount === 'number') dbaRatingCount = data.ratingCount;
+        } else {
+          books = SAMPLE_BOOKS;
+        }
       } else {
         books = SAMPLE_BOOKS;
       }
@@ -969,6 +1033,7 @@
       books = SAMPLE_BOOKS;
     }
 
+    renderRatingBadge();
     renderBooks();
 
     document.getElementById('search').addEventListener('input', (e) => {
@@ -1028,6 +1093,20 @@
       return b.added.localeCompare(a.added);
     }
     return ageInMinutes(a.added) - ageInMinutes(b.added);
+  }
+
+  // ===== RENDER DBA RATING BADGE =====
+  function renderRatingBadge() {
+    const el = document.getElementById('dba-rating');
+    if (!el) return;
+    if (!dbaRating || dbaRatingCount == null) {
+      el.style.display = 'none';
+      return;
+    }
+    el.style.display = '';
+    el.querySelector('.dba-rating-badge').textContent = dbaRating;
+    el.querySelector('.dba-rating-text').innerHTML =
+      '<strong>DBA-rating</strong>' + dbaRatingCount + ' bedømmelser';
   }
 
   // ===== RENDER BOOKS =====
