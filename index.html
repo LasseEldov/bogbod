@@ -985,16 +985,24 @@
   };
 
   // Build a fast lookup: id -> Set of emne-keys (respecting blacklist)
-  const emneMap = {};
-  for (const key in EMNER) {
-    const blacklisted = new Set((EMNE_BLACKLIST[key] || []).map(String));
-    EMNER[key].forEach(id => {
-      const s = String(id);
-      if (blacklisted.has(s)) return; // exclude this id from this emne
-      if (!emneMap[s]) emneMap[s] = new Set();
-      emneMap[s].add(key);
-    });
+  // This is rebuildable; called once from hardcoded EMNER as a fallback,
+  // and again after loading emner.json (if available) to use fresh data.
+  let emneMap = {};
+  function buildEmneMap(emnerObj) {
+    const map = {};
+    for (const key in emnerObj) {
+      const blacklisted = new Set((EMNE_BLACKLIST[key] || []).map(String));
+      emnerObj[key].forEach(id => {
+        const s = String(id);
+        if (blacklisted.has(s)) return; // exclude this id from this emne
+        if (!map[s]) map[s] = new Set();
+        map[s].add(key);
+      });
+    }
+    return map;
   }
+  emneMap = buildEmneMap(EMNER);
+
   function bookHasEmne(b, key) {
     const s = emneMap[String(b.id)];
     return s ? s.has(key) : false;
@@ -1038,6 +1046,24 @@
       // File:// or no books.json — use sample data so the page still works
       books = SAMPLE_BOOKS;
     }
+
+    // Try to load emner.json (overrides hardcoded EMNER).
+    // The hardcoded version is kept as a fallback if the file is missing.
+    // Silkeborg-bøger is a curated list that lives only in EMNER (not produced
+    // by the bookmarklet), so merge it back in if emner.json was loaded.
+    try {
+      const res = await fetch('emner.json', { cache: 'no-cache' });
+      if (res.ok) {
+        const emnerData = await res.json();
+        if (emnerData && typeof emnerData === 'object') {
+          // Merge: emner.json wins, but keep silkeborg from hardcoded EMNER
+          if (!emnerData.silkeborg && EMNER.silkeborg) {
+            emnerData.silkeborg = EMNER.silkeborg;
+          }
+          emneMap = buildEmneMap(emnerData);
+        }
+      }
+    } catch (e) { /* keep hardcoded EMNER as-is */ }
 
     renderRatingBadge();
     renderBooks();
